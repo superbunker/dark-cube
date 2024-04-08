@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Dark Cube</title>
+ 
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+<div id="container">
+
+    <div class="header">
+        <h1>Cube of Malevolence</h1>
+   </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+
+    <div id="text-overlay">
+        <h2>Node Information</h2>
+        <p>This is some demo text to demonstrate the effect of displaying additional information when a node is selected.</p>
+    </div> <!-- Text overlay container -->
+
+
+    <div class="footer">
+        <div class="control">
+            <label for="x">X:</label>
+            <input type="range" id="x" min="0" max="5" value="0" step="1" list="markers">
+        </div>
+        <div class="control">
+            <label for="y">Y:</label>
+            <input type="range" id="y" min="0" max="5" value="0" step="1" list="markers">
+        </div>
+        <div class="control">
+            <label for="z">Z:</label>
+            <input type="range" id="z" min="0" max="5" value="0" step="1" list="markers">
+        </div>
+        <datalist id="markers">
+            <option value="0"></option>
+            <option value="1"></option>
+            <option value="2"></option>
+            <option value="3"></option>
+            <option value="4"></option>
+            <option value="5"></option>
+        </datalist>
+        <div id="nodeNumber" class="control">
+            <label>Selected Node:</label>
+            <span id="nodeNumberValue">000</span>
+        </div>
+    </div>
+
+</div><!-- container -->
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
