@@ -1,18 +1,1082 @@
 {
   "000": {
-    "title": "Node (0, 0, 0)",
-    "shortDescription": "This is the starting node.",
-    "longDescription": "The node at (0, 0, 0) represents the origin or starting point of the cube. It serves as a reference for all other nodes."
+    "title": "Node 000 - None cube",
+    "shortDescription": "Modest, generous, and neurotic. Puts other people first, is always conscientious of their feelings, and remorseful about any harms they may have caused. Cautious and self-controlled, focusing on longer term goals rather than short-term thrills. Honest and self-effacing, letting other people take the credit and spotlight.",
+    "longDescription": "Long_description"
   },
   "001": {
-    "title": "Node (0, 0, 1)",
-    "shortDescription": "First step along the Z-axis.",
-    "longDescription": "This node is located one unit away from the origin along the positive Z-axis. It marks the beginning of the Z-axis progression."
+    "title": "Node 001 - A bit of a psychopath",
+    "shortDescription": "Has self-control but likes to occasionally take risks. Enjoys being \"edgy.\"",
+    "longDescription": "Long_description"
   },
   "002": {
-    "title": "Node (0, 0, 2)",
-    "shortDescription": "Second step along the Z-axis.",
-    "longDescription": "This node is located two units away from the origin along the positive Z-axis, continuing the progression along the Z-axis."
+    "title": "Node 002 - Moderate psychopath",
+    "shortDescription": "Can be a bully. Sometimes does something illegal, just for the thrill. Doesn’t care much about people feelings, and rarely regrets what they've done. Sometimes overreacts to provocations.",
+    "longDescription": "Long_description"
+  },
+  "003": {
+    "title": "Node 003 - Quite psychopathic",
+    "shortDescription": "Can be charming, at first, but does not particularly care what people think. Likes to insult people, will get into fights if they respond. Takes unnecessary risks, just for the thrill. Has no regrets for their criminal record.",
+    "longDescription": "Long_description"
+  },
+  "004": {
+    "title": "Node 004 - Acute psychopath",
+    "shortDescription": "Superficial, shallow and cruel. Impulsive and vengeful. Seeks power over others and will use violence to get it. Little shame or remorse for any of their actions, and little concern about the future.",
+    "longDescription": "Long_description"
+  },
+  "005": {
+    "title": "Node 005 - Pure psychopath",
+    "shortDescription": "Lacks all empathy. Completely without remorse and unconcerned about any consequences. Crimes are their own reward. Uses force to take what they want. Reacts violently to any perceived slight, and takes pleasure in being cruel.",
+    "longDescription": "Long_description"
+  },
+  "010": {
+    "title": "Node 010 - Nominal narcissist",
+    "shortDescription": "Often funny and gregarious, enjoys being the center of attention. Pays attention to how people react, but tends to bring conversations back around to themselves. May stretch the truth at times.",
+    "longDescription": "Long_description"
+  },
+  "011": {
+    "title": "Node 011 - A touch of narcissism and psychopathy",
+    "shortDescription": "Is often funny and gregarious, but enjoys making offensive jokes and stretching the truth. Tends to act before thinking things through. Can be vengeful when they feel insulted.",
+    "longDescription": "Long_description"
+  },
+  "012": {
+    "title": "Node 012 - Rather psychopathic with some light narcissism",
+    "shortDescription": "Likes to be the center of attention, but doesn’t particularly care about people’s feelings. Enjoys being a bully. Sometimes does dangerous or illegal things for the attention.",
+    "longDescription": "Long_description"
+  },
+  "013": {
+    "title": "Node 013 - Appreciably psychopathic with a hint of narcissism",
+    "shortDescription": "Snappy dresser. Often funny and gregarious. Vengeful, callous, and impulsive. Can be sadistic and spiteful. Taunts people in front of others.",
+    "longDescription": "Long_description"
+  },
+  "014": {
+    "title": "Node 014 - Intensely psychopathic with some nominal narcissism",
+    "shortDescription": "Funny and gregarious. Shallow and cruel. Enjoys being the center of attention. Likes to commit crimes. Has a habit of bullying and aggression. Lacks remorse and is callous towards other’s suffering",
+    "longDescription": "Long_description"
+  },
+  "015": {
+    "title": "Node 015 - Extraordinarily psychopathic with a dollop of narcissism",
+    "shortDescription": "A charming deceiver, who acts without any sense of consequences. Reactive, aggressive, vengeful, impulsive, remorseless. Loves doing crimes, dirty jokes, and a bit of light torture.",
+    "longDescription": "Long_description"
+  },
+  "020": {
+    "title": "Node 020 - Moderately narcissistic",
+    "shortDescription": "Is often funny and gregarious. Attentive to other people but enjoys being the center of attention. May dominate conversation, and stretch the truth, especially when self-promoting.",
+    "longDescription": "Long_description"
+  },
+  "021": {
+    "title": "Node 021 - Noticeably narcissistic with a bit of psychopathy",
+    "shortDescription": "Loves to lead conversations, usually back to talking about themself. Charming, good dresser. A bit impulsive, with a loose attachment to the truth.",
+    "longDescription": "Long_description"
+  },
+  "022": {
+    "title": "Node 022 - Relatively narcissistic and psychopathic",
+    "shortDescription": "A bit extroverted, superficially charming, can be a bit of a bully. Would like to be famous but doesn’t much care why. Enjoys breaking the rules, and has no regrets about it.",
+    "longDescription": "Long_description"
+  },
+  "023": {
+    "title": "Node 023 - Uncommonly psychopathic and somewhat narcissistic",
+    "shortDescription": "Self-centered, but likes to keep up appearances. Well-groomed, prone to lying. Flattering and helpful towards those who appreciative them, vengeful and callous to those who don’t.",
+    "longDescription": "Long_description"
+  },
+  "024": {
+    "title": "Node 024 - Profoundly psychopathic and rather narcissistic",
+    "shortDescription": "Thrill-seeker who loves a splashy crime. Can be fun at parties, for a little while. Impulsive and aggressive. Lacks remorse, indifferent to suffering, seeks power over others.",
+    "longDescription": "Long_description"
+  },
+  "025": {
+    "title": "Node 025 - Absolutely psychopathic with noticeable narcissism",
+    "shortDescription": "Charming and funny at first, but eventually comes across as an insect wearing a human mask. Acts impulsively and violently, without any remorse. Doesn’t care who they hurt, but would like to be admired.",
+    "longDescription": "Long_description"
+  },
+  "030": {
+    "title": "Node 030 - Abundantly narcissistic",
+    "shortDescription": "Needs to be the center of attention. Fashionable. Prone to grandiosity. Can be very witty, but loves a mean joke. Enjoys lying for its own sake. Sometimes acts without thinking.",
+    "longDescription": "Long_description"
+  },
+  "031": {
+    "title": "Node 031 - Uncommonly narcissistic with just a bit of psychopathy",
+    "shortDescription": "Usually clear about their intentions, which will be selfish and grandiose. Overshares personal information, but is probably lying about it. Can be funny and charming, and vengeful if you’re unappreciative of it.",
+    "longDescription": "Long_description"
+  },
+  "032": {
+    "title": "Node 032 - Quote narcissistic and rather psychopathic",
+    "shortDescription": "Needs to be the center of attention. Enjoys lying and cruel tricks, feels no remorse about it. Tends to respond aggressively to any perceived insult. Sometimes decides to do a crime, just for fun.",
+    "longDescription": "Long_description"
+  },
+  "033": {
+    "title": "Node 033 - Markedly narcissistic and psychopathic",
+    "shortDescription": "A snappy dresser, prone to attention-getting grandiosity, who can make a great first impression at parties. Also an impulsive liar, who takes sadistic vengeance on those who don’t show proper appreciation.",
+    "longDescription": "Long_description"
+  },
+  "034": {
+    "title": "Node 034 - Exceedingly psychopathic and markedly narcissistic",
+    "shortDescription": "Shallow, cruel, and power-seeking. They like to keep up appearances and make sure everyone notices. Enjoys the thrill of breaking rules and gives no thought to who gets hurt by it.",
+    "longDescription": "Long_description"
+  },
+  "035": {
+    "title": "Node 035 - Completely psychopathic and abundantly narcissistic",
+    "shortDescription": "After getting past their initial charm, it becomes clear that they have no empathy or emotional depth, and every. Once you recognize this about them, they’ll consider you garbage and/or prey.",
+    "longDescription": "Long_description"
+  },
+  "040": {
+    "title": "Node 040 - Intensely narcissistic",
+    "shortDescription": "Extroverted and fame-seeking, they care less about power than glory. All conversations revolve around their real or imagined accomplishments",
+    "longDescription": "Long_description"
+  },
+  "041": {
+    "title": "Node 041 - Deeply narcissistic with a touch of psychopathy",
+    "shortDescription": "Can be a very charming conversationalist, as long as you’re focused on them. They take pleasure in the misfortune of others, and threats to their ego may be met with a flurry of impulsive violence.",
+    "longDescription": "Long_description"
+  },
+  "042": {
+    "title": "Node 042 - Severely narcissistic and Noticeably psychopathic",
+    "shortDescription": "A fashionable and convivial bully who enjoys luring the unwitting into petty crime just to see if they can. Tells obvious lies for the pleasure of it, and if called out, they might deny it, or might break furniture.",
+    "longDescription": "Long_description"
+  },
+  "043": {
+    "title": "Node 043 - Acutely narcissistic and markedly psychopathic",
+    "shortDescription": "They seek fame so they can have the freedom to lash out at the little people. Reactive, vengeful, and callous. The truth is what they tell you it is, and is largely proclamations of how great they are.",
+    "longDescription": "Long_description"
+  },
+  "044": {
+    "title": "Node 044 - Severely narcissistic and psychopathic",
+    "shortDescription": "An admirer of famous criminals, the want to be know for their brave feats of illicit daring-do. All the side characters in their story who get hurt by it all are nothing but decorations, discard and forgotten.",
+    "longDescription": "Long_description"
+  },
+  "045": {
+    "title": "Node 045 - Completely psychopathic and severely narcissistic",
+    "shortDescription": "Lacks all empathy, impulse control, and remorse. They take pleasure in the misfortune of others and is deliberately cruel and unjust If you stand in the way of them looking good, they will probably resort to violence.",
+    "longDescription": "Long_description"
+  },
+  "050": {
+    "title": "Node 050 - Pure narcissist",
+    "shortDescription": "It can be fun to be around their wild stories and bragging, for a little while. If you don’t appreciate them, they will do everything they can to destroy you.",
+    "longDescription": "Long_description"
+  },
+  "051": {
+    "title": "Node 051 - Completely narcissistic with a wee bit of psychopathy",
+    "shortDescription": "A braggart who loves an edgy joke and requires your full attention. If you’re not admiring them, you do not exist. If you continue to both exist and not admire them, they will try to change one or both.",
+    "longDescription": "Long_description"
+  },
+  "052": {
+    "title": "Node 052 - Completely narcissistic with moderate psychopathy",
+    "shortDescription": "A thrill-seeking extrovert, who will react aggressively if their social status is threatened. Sensitive to provocation and cruel towards anyone who slights them, or who seems like an easy target.",
+    "longDescription": "Long_description"
+  },
+  "053": {
+    "title": "Node 053 - Monstrously narcissistic and notably psychopathic",
+    "shortDescription": "Enjoys lies, crimes, and looking good. If you interfere with any of their fun, they’ll viscously attack you, and then later tell you it ever happened.",
+    "longDescription": "Long_description"
+  },
+  "054": {
+    "title": "Node 054 - Monstrously narcissistic and profoundly psychopathic",
+    "shortDescription": "Remorseless, shallow, egomaniac. Has a certain wild charm that can be fun to be around, if you don’t mind the sudden violence.",
+    "longDescription": "Long_description"
+  },
+  "055": {
+    "title": "Node 055 - Total narcissistic psychopath",
+    "shortDescription": "Howling deviant. If you criticize them, they may respond with cutting sarcasm. Or they might just knife you in the gut. In either case, they’ll explain how their snappy comeback and/or stab wounds are incredible. Just the absolute best.",
+    "longDescription": "Long_description"
+  },
+  "100": {
+    "title": "Node 100 - Just a smidge Machiavellian",
+    "shortDescription": "Cautious, modest, and generous. Likes to try new things. Sometimes cynical and uncooperative, and can be a bit manipulative.",
+    "longDescription": "Long_description"
+  },
+  "101": {
+    "title": "Node 101 - Slightly Machiavellian and psychopathic",
+    "shortDescription": "Likes to take occasional risks and break the rules, but tries to be careful about it. Usually has a scheme they’ve been mulling over.",
+    "longDescription": "Long_description"
+  },
+  "102": {
+    "title": "Node 102 - Moderately psychopathic with a touch of Machiavellianism",
+    "shortDescription": "Likes to come up with plans to do something illegal, just for the thrill of getting away with it. But if they do get caught, they don’t particularly care.",
+    "longDescription": "Long_description"
+  },
+  "103": {
+    "title": "Node 103 - Notably psychopathic, with some light Machiavellianism",
+    "shortDescription": "Doesn’t like following the rules, and will probably lash out if you try to make them.  Vengeful, callous, sadistic, and spiteful. Often lies. Likes to try new things, especially if it’s a criminal plot.",
+    "longDescription": "Long_description"
+  },
+  "104": {
+    "title": "Node 104 - Exceedingly psychopathic, and a little Machiavellian",
+    "shortDescription": "Impulsive thrill-seeker, aggressive bully, Callous, shallow, and cruel. Will try to tempt you into their latest scheme. If that doesn’t work, they will exact brutal vengeance on you.",
+    "longDescription": "Long_description"
+  },
+  "105": {
+    "title": "Node 105 - Boundless psychopathy, with a dash of Machiavellianism",
+    "shortDescription": "A manipulative schemer with good taste in shoes. Takes what they want on a whim, usually with unnecessary violence. Completely without remorse, lacks all empathy and emotional depth.",
+    "longDescription": "Long_description"
+  },
+  "110": {
+    "title": "Node 110 - A touch of narcissism with a hint of Machiavellianism",
+    "shortDescription": "Often funny and gregarious, enjoys being the center of attention, good at self promotion, likes to learn new things. May stretch the truth at times, and believes most rules and laws are just games to be played.",
+    "longDescription": "Long_description"
+  },
+  "111": {
+    "title": "Node 111 - Vaguely Machiavellian, narcissistic, and psychopathic",
+    "shortDescription": "Sometimes cynical and uncooperative. Likes to stretch the truth and take occasional risks. Enjoys being the center of attention, and tends to think of themselves first.",
+    "longDescription": "Long_description"
+  },
+  "112": {
+    "title": "Node 112 - Moderately psychopathic, with a smidge of Machiavellianism and narcissism",
+    "shortDescription": "Acts interested in people, so they can bring the conversation back around to themselves. Usually has a new plan they’re trying to aggressively rope you in to. Sensitive to perceived slights. Rarely obeys traffic laws.",
+    "longDescription": "Long_description"
+  },
+  "113": {
+    "title": "Node 113 - Unusually psychopathic, with just a bit of narcissism and Machiavellianism ",
+    "shortDescription": "Snappy dresser, funny jokester, frequent liar, manipulative schemer, sadistic bully.",
+    "longDescription": "Long_description"
+  },
+  "114": {
+    "title": "Node 114 - Exceedingly psychopathic, with some light Machiavellianism and narcissism",
+    "shortDescription": "Remorseless power-seeker, who enjoys breaking the law just for the  feeling of control over other people. Enjoys being the center of attention and using it to bully other people.",
+    "longDescription": "Long_description"
+  },
+  "115": {
+    "title": "Node 115 - Completely psychopathic, with a hint of Machiavellianism and narcissism",
+    "shortDescription": "Impulsive, remorseless, cynical, cruel. Will only be honest about something hurtful. Takes what they want by force. Cracks jokes while doing crimes.",
+    "longDescription": "Long_description"
+  },
+  "120": {
+    "title": "Node 120 - Rather narcissistic, lightly Machiavellian",
+    "shortDescription": "Often funny and gregarious, and enjoys being the center of attention. Likes to scheme and plot, and can be manipulative. Relentless self-promoter.",
+    "longDescription": "Long_description"
+  },
+  "121": {
+    "title": "Node 121 - Notably narcissistic, with hints of Machiavellianism and psychopathy",
+    "shortDescription": "Enjoys being the center of attention, and tends to dominate conversations. A bit impulsive and likes to stretch the truth. Often thinks of people in terms of how they could be useful.",
+    "longDescription": "Long_description"
+  },
+  "122": {
+    "title": "Node 122 - Somewhat narcissistic and psychopathic, with a dash of Machiavellianism",
+    "shortDescription": "Can be charming, but likes to bully people. Cynical and dishonest. Tends to take impulsive risks, and has no regrets about the fallout.",
+    "longDescription": "Long_description"
+  },
+  "123": {
+    "title": "Node 123 - Unusually psychopathic, moderately narcissistic, and a touch Machiavellian ",
+    "shortDescription": "Vengeful, callous, liar who like to impress people, and bully them if they can't. Likes to find new things to try, especially if they're illegal. Has strong opinions about hats.",
+    "longDescription": "Long_description"
+  },
+  "124": {
+    "title": "Node 124 - Profoundly psychopathic, noticeably narcissistic, slightly Machiavellian",
+    "shortDescription": "Shallow, cruel, and manipulative. Seeks power over others. Dominates conversations. Prone to impulsive, thrill-seeking behavior. Brags about the laws they’ve broken.",
+    "longDescription": "Long_description"
+  },
+  "125": {
+    "title": "Node 125 - Boundless psychopathy, with notable narcissism and a bit of Machiavellianism",
+    "shortDescription": "Impulsive, remorseless, aggressive, violent, but can be fun at parties. Loves to try out new restaurants and skip out on the bill. Will tell you how they got those scars. It will be a lie.",
+    "longDescription": "Long_description"
+  },
+  "130": {
+    "title": "Node 130 - Quite narcissistic with a hint of Machiavellianism",
+    "shortDescription": "Fashionable and well-groomed. Cynical and manipulative. Needs to be the center of attention. Will tell you way too much about themselves, but will not tell you which part is fake.",
+    "longDescription": "Long_description"
+  },
+  "131": {
+    "title": "Node 131 - Markedly narcissistic and with some light psychopathy and Machiavellianism",
+    "shortDescription": "Rather impulsive. Prone to grandiosity. Can be charming and funny, but loves a mean joke and can be very cruel if you don’t appreciate them.",
+    "longDescription": "Long_description"
+  },
+  "132": {
+    "title": "Node 132 - Significantly psychopathic, a bit narcissistic, and somewhat Machiavellian",
+    "shortDescription": "Charming, but shallow and cruel. Uses manipulation and violence to get what they want. Takes pleasure in the misfortune of others, but gets offended if you don’t admire their wit.",
+    "longDescription": "Long_description"
+  },
+  "133": {
+    "title": "Node 133 - Unfathomably psychopathic, deeply narcissistic, and just a touch Machiavellian",
+    "shortDescription": "Enjoys being the center of attention, and will do anything to get there. Including, but not limited to, murder. Spends a lot of time thinking about how great they are.",
+    "longDescription": "Long_description"
+  },
+  "134": {
+    "title": "Node 134 - Extraordinarily psychopathic, with a significant amount of narcissism and a pinch of Machiavellianism",
+    "shortDescription": "Impulsive and remorseless. Loves to manipulate and deceive people. Believes that rules are for other people, and that they are above the law.",
+    "longDescription": "Long_description"
+  },
+  "135": {
+    "title": "Node 135 - Completely psychopathic, with abundant narcissism and a touch of Machiavellianism",
+    "shortDescription": "Violent, aggressive, impulsive, and remorseless. Enjoys making others suffer and will use manipulation and deceit to get what they want.",
+    "longDescription": "Long_description"
+  },
+  "140": {
+    "title": "Node 140 - Purely Machiavellian",
+    "shortDescription": "Cautious, manipulative, and uncooperative. Likes to be in control, but avoids being the center of attention. Often cynical and willing to exploit others for personal gain.",
+    "longDescription": "Long_description"
+  },
+  "141": {
+    "title": "Node 141 - Mostly Machiavellian, with a hint of narcissism and psychopathy",
+    "shortDescription": "Manipulative and uncooperative. Prone to grandiosity. Enjoys being in control, but doesn’t like being the center of attention.",
+    "longDescription": "Long_description"
+  },
+  "142": {
+    "title": "Node 142 - Predominantly psychopathic, with a touch of Machiavellianism and narcissism",
+    "shortDescription": "Manipulative, aggressive, and remorseless. Enjoys being in control and will use violence and manipulation to get their way.",
+    "longDescription": "Long_description"
+  },
+  "143": {
+    "title": "Node 143 - Mainly psychopathic, with a hint of narcissism and Machiavellianism",
+    "shortDescription": "Aggressive, manipulative, and uncooperative. Enjoys being in control and will use manipulation and violence to get their way.",
+    "longDescription": "Long_description"
+  },
+  "144": {
+    "title": "Node 144 - Significantly psychopathic, with a pinch of narcissism and Machiavellianism",
+    "shortDescription": "Aggressive, impulsive, and remorseless. Enjoys being in control and will use manipulation and violence to get their way.",
+    "longDescription": "Long_description"
+  },
+  "145": {
+    "title": "Node 145 - Completely psychopathic, with a touch of narcissism and Machiavellianism",
+    "shortDescription": "Violent, aggressive, and remorseless. Enjoys being in control and will use manipulation and violence to get their way.",
+    "longDescription": "Long_description"
+  },
+  "150": {
+    "title": "Node 150 - Utterly Machiavellian",
+    "shortDescription": "Manipulative, uncooperative, and cynical. Enjoys being in control and will exploit others for personal gain. Avoids being the center of attention.",
+    "longDescription": "Long_description"
+  },
+  "151": {
+    "title": "Node 151 - Mainly Machiavellian, with a touch of narcissism and psychopathy",
+    "shortDescription": "Manipulative, uncooperative, and prone to grandiosity. Enjoys being in control and will use manipulation and deceit to get their way.",
+    "longDescription": "Long_description"
+  },
+  "152": {
+    "title": "Node 152 - Predominantly psychopathic, with a pinch of Machiavellianism and narcissism",
+    "shortDescription": "Manipulative, aggressive, and remorseless. Enjoys being in control and will use manipulation and violence to get their way.",
+    "longDescription": "Long_description"
+  },
+  "153": {
+    "title": "Node 153 - Mainly psychopathic, with a hint of Machiavellianism and narcissism",
+    "shortDescription": "Aggressive, manipulative, and uncooperative. Enjoys being in control and will use manipulation and violence to get their way.",
+    "longDescription": "Long_description"
+  },
+  "154": {
+    "title": "Node 154 - Completely psychopathic, with a touch of Machiavellianism and narcissism",
+    "shortDescription": "Violent, aggressive, and remorseless. Enjoys being in control and will use manipulation and violence to get their way.",
+    "longDescription": "Long_description"
+  },
+  "155": {
+    "title": "Node 155 - Purely psychopathic",
+    "shortDescription": "Aggressive, impulsive, and remorseless. Enjoys being in control and will use manipulation and violence to get their way.",
+    "longDescription": "Long_description"
+  },
+  "200": {
+    "title": "Node 200 - Somewhat Machiavellian",
+    "shortDescription": "Likes to hide their intentions. Does not like following the rules. Often has a con going. Cautious, self-controlled, a focus on long term goals.",
+    "longDescription": "Long_description"
+  },
+  "201": {
+    "title": "Node 201 - Rather Machiavellian with a dash of psychopathy",
+    "shortDescription": "Cynical. Takes calculated risks. Doesn’t believe the rules apply to them, and enjoys getting away with a cheat. Enjoys trying new things.",
+    "longDescription": "Long_description"
+  },
+  "202": {
+    "title": "Node 202 - Moderately psychopathic and Machiavellian",
+    "shortDescription": "Likes to plan ahead, but occasional take unnecessary risks on impulse. Sensitive to insults. Enjoys manipulating people for the pleasure of controlling them and getting away with it.",
+    "longDescription": "Long_description"
+  },
+  "203": {
+    "title": "Node 203 - Notably psychopathic and rather Machiavellian",
+    "shortDescription": "Cynical, vengeful, and sadistic. Enjoys coning people, even without profit. Feels no remorse about hurting people, and likes to find new ways to do it.",
+    "longDescription": "Long_description"
+  },
+  "204": {
+    "title": "Node 204 - Intensely psychopathic, somewhat Machiavellian",
+    "shortDescription": "Shallow and cruel. Breaks laws just to show the rules don’t apply to them. Explores new ways to get a thrill, usually by causing someone to suffer in novel ways.",
+    "longDescription": "Long_description"
+  },
+  "205": {
+    "title": "Node 205 - Monstrously psychopathic, somewhat Machiavellian",
+    "shortDescription": "Lacks all empathy. Completely without remorse. Crimes are their own reward. Does not care what you think. While they like to plan ways to cheat and abuse people, they’ll often lash out with random violence.",
+    "longDescription": "Long_description"
+  },
+  "210": {
+    "title": "Node 210 - Relatively Machiavellian, with a hint of narcissism",
+    "shortDescription": "They have a flashy schemers smile. Often has a new scheme going, and will explain it in entertaining but largely false detail.",
+    "longDescription": "Long_description"
+  },
+  "211": {
+    "title": "Node 211 - Noticeably Machiavellian, with some light narcissism and psychopathy",
+    "shortDescription": "Likes to hide their intentions. Does not like following the rules. Has a personal game where they try to get people to laugh at increasingly inappropriate jokes.",
+    "longDescription": "Long_description"
+  },
+  "212": {
+    "title": "Node 212 - Moderately psychopathic and Machiavellian, a smidge narcissistic",
+    "shortDescription": "Can be charming and empathetic, but mainly so they can get one-up on people. Good at self promotion and long-term planning, but sometime take unnecessary risks or breaks the law, just for the thrill.",
+    "longDescription": "Long_description"
+  },
+  "213": {
+    "title": "Node 213 - Unusually psychopathic, noticeably Machiavellian, slightly narcissistic",
+    "shortDescription": "A snappy dresser with sadistic streak. Doesn’t like to follow rules, and tends to stretch the truth. Enjoys being the center of attention, but likes to hide their true intentions. Sensitive to provocation.",
+    "longDescription": "Long_description"
+  },
+  "214": {
+    "title": "Node 214 - Intensely psychopathic, somewhat Machiavellian, just a bit narcissistic",
+    "shortDescription": "Remorseless bully who likes to try new things. Veteran shoplifter. Tells dad jokes. Randomly violent.",
+    "longDescription": "Long_description"
+  },
+  "215": {
+    "title": "Node 215 - Total psychopath, moderately Machiavellian, slightly narcissistic",
+    "shortDescription": "Emotionally manipulative. Makes a point of being deliberately unfair. Has hidden plans involving domination and abuse, but often lashes out with sudden violence.",
+    "longDescription": "Long_description"
+  },
+  "220": {
+    "title": "Node 220 - Somewhat narcissistic and Machiavellian",
+    "shortDescription": "Always seems to have a new scheme they’re promoting, and is resentful if you criticize it. Can be manipulative and stretches the truth at times, but isn’t overtly cruel.",
+    "longDescription": "Long_description"
+  },
+  "221": {
+    "title": "Node 221 - Moderate narcissist and Machiavellian, slight psychopath",
+    "shortDescription": "Likes to come up with new ways to do things. Occasionally impulsive. Enjoys self-promotion, but tends to exaggerate and leave out important details. Does not take criticism well.",
+    "longDescription": "Long_description"
+  },
+  "222": {
+    "title": "Node 222 - Moderately Machiavellian, narcissistic, and psychopathic.",
+    "shortDescription": "Enjoys being the center of attention. Likes to feel power over other people. Often has a con going. Likes to explore and take risks, and doesn’t particularly care if anyone gets hurt.",
+    "longDescription": "Long_description"
+  },
+  "223": {
+    "title": "Node 223 - Appreciably psychopathic, rather Machiavellian and narcissistic,",
+    "shortDescription": "The thing that motivates their revenge can be something small or petty. When they’re planning their revenge, they can be charming and funny, even make their target feel like they’re in on something. When they exact their revenge, they have little more emotional reaction than a sarcastic smirk.",
+    "longDescription": "Long_description"
+  },
+  "224": {
+    "title": "Node 224 - Profoundly psychopathic, relatively narcissistic and Machiavellian",
+    "shortDescription": "A chatty schemer who tries to involve people in their latest plan. If you resist, they’ll push harder. If you find problems in the plan, they’ll lash out. If you dismiss them, they’ll destroy you. If you go along with the plan, they’ll find ways to diminish and hurt you.",
+    "longDescription": "Long_description"
+  },
+  "225": {
+    "title": "Node 225 - Extreme psychopath, moderate narcissist and Machiavellian",
+    "shortDescription": "Likes chatting folks up and doing crimes. Very attentive to their appearance and what impression they make. Finds ways to use people, without any concern for the consequences or pain caused. Emotional and physical violence are tools to an end, but can also happen on sudden impulse. No empathy, no regrets.",
+    "longDescription": "Long_description"
+  },
+  "230": {
+    "title": "Node 230 - Markedly narcissistic, somewhat Machiavellian",
+    "shortDescription": "A cautious, scheming braggart who is almost too open about personal details, yet tries to hide their entirely selfish intentions. Very concerned about the impression they make, but loves a mean joke and a good lie.",
+    "longDescription": "Long_description"
+  },
+  "231": {
+    "title": "Node 231 - Unusually narcissistic, rather Machiavellian, a dash of psychopathy",
+    "shortDescription": "Needs to be the center of attention but usually hides what they’re really up to. Enjoys trying new things on impulse. Likes to talk about themselves to the point of too much personal information, but is probably lying about it.",
+    "longDescription": "Long_description"
+  },
+  "232": {
+    "title": "Node 232 - Appreciably narcissistic, moderately psychopathic and Machiavellian",
+    "shortDescription": "Needs to feel like they’re in charge of things. Tries to be the cool boss, by telling tasteless jokes and insulting people behind their back. Spends a confusing amount of effort to look the way they do.",
+    "longDescription": "Long_description"
+  },
+  "233": {
+    "title": "Node 233 - Notably psychopathic and narcissistic, somewhat Machiavellian",
+    "shortDescription": "Moody and impulsive, with a poor sense of boundaries. Concerned with their appearance and status. Vengeful and sadistic towards anyone who threatens it. Enjoys lying to get people to do things for them, then later taunting them about it.",
+    "longDescription": "Long_description"
+  },
+  "234": {
+    "title": "Node 234 - Deeply psychopathic, unusually narcissistic, relatively Machiavellian",
+    "shortDescription": "Shallow, cruel, and callous towards other’s suffering. Seeks power over others, and lacks remorse for what they do to get it. Enjoys being the center of attention, and is prone to impulsive, thrill seeking stunts to get it.",
+    "longDescription": "Long_description"
+  },
+  "235": {
+    "title": "Node 235 - Absolute psychopath, appreciably narcissistic, rather Machiavellian",
+    "shortDescription": "Impulsive, remorseless criminal with a grandiose streak. While they try to keep up appearances, they do not care about other people or their opinions. Enjoys controlling and manipulating people, through tricks and lies when possible, but more often through whatever violence is at hand.",
+    "longDescription": "Long_description"
+  },
+  "240": {
+    "title": "Node 240 - Narcissistic as all get out, somewhat Machiavellian",
+    "shortDescription": "An emotionally-perceptive sadist, who takes pleasure in the misfortune of others. Can be impulsive, but is usually cautious and targeted. Uses rapid intimacy to control and, if you cross them, eventually destroy.",
+    "longDescription": "Long_description"
+  },
+  "241": {
+    "title": "Node 241 - Exceedingly narcissistic, moderately Machiavellian, and just a bit psychopathic",
+    "shortDescription": "Has a way of immediately becoming close to people. Likes to brag about their plans at length, while hiding their true intentions. They seek power, but prefer glory, and react severely to anything that makes them look bad.",
+    "longDescription": "Long_description"
+  },
+  "242": {
+    "title": "Node 242 - Intensely narcissistic, somewhat psychopathic and Machiavellian",
+    "shortDescription": "Impulsive, status-obsessed networker who flouts convention and seeks cheap thrills. Polished appearance, and usually self-controlled, but enjoys punching down, especially in public.",
+    "longDescription": "Long_description"
+  },
+  "243": {
+    "title": "Node 243 - Deeply narcissistic, uncommonly psychopathic, relatively Machiavellianism",
+    "shortDescription": "Vengeful, self-important liar. Can recognize ways to emotionally manipulate people, but is mostly unconcerned about anyone’s feelings. Likes to find creative new ways to insult people.",
+    "longDescription": "Long_description"
+  },
+  "244": {
+    "title": "Node 244 - Intensely psychopathic and narcissistic, rather Machiavellian",
+    "shortDescription": "Aggressive and arrogant. Shallowly charming. Exploiting people is sort of a game for them. Can become suddenly violent if they feel disrespected. Likes to commit flashy crimes, and endlessly brag about them.",
+    "longDescription": "Long_description"
+  },
+  "245": {
+    "title": "Node 245 - Extreme psychopath, severe narcissist, somewhat Machiavellian",
+    "shortDescription": "Sadistic, amoral loudmouth with a total lack of empathy and a constant need for admiration. Obsessed with power, success, and appearance. Their personal relationships are built on deceit and manipulation. Will plot to tear down people they envy.",
+    "longDescription": "Long_description"
+  },
+  "250": {
+    "title": "Node 250 - Complete narcissist, moderate Machiavellian",
+    "shortDescription": "Lying, self-centered braggart. Can be charming and persuasive. Capable of empathy as manipulative tool. Mostly values other people for how they can be personally useful. Makes long term plans, but is also extremely impulsive. Will work to destroy anyone they feel made them look bad.",
+    "longDescription": "Long_description"
+  },
+  "251": {
+    "title": "Node 251 - Extreme narcissist, moderate Machiavellian, a mite psychopathic",
+    "shortDescription": "Self-centered braggart with a mean streak. Must dominate all social situations, and can be very charming at first. Is usually lying, often to try to get people to help them in some way. Despite their plans, they often take sudden impulsive risks.",
+    "longDescription": "Long_description"
+  },
+  "252": {
+    "title": "Node 252 - Monstrously narcissistic, moderately psychopathic and narcissistic",
+    "shortDescription": "Appearance-obsessed egomaniac who tries to bully everyone into the schemes. Open and extroverted. Can be fun to be around, for a while. Extremely impulsive and immodest. Aggressive and vengeful, especially if crossed in any way",
+    "longDescription": "Long_description"
+  },
+  "253": {
+    "title": "Node 253 - Totally narcissistic, appreciably psychopathic, sort of Machiavellian",
+    "shortDescription": "Lying, vengeful egoist. Capable of manipulative charm and guile, but does not particularly care about anyone else’s feelings. Can be funny, but enjoys cruel and sadistic humor. Likes to take attention-getting risks on impulse, especially if it’s illegal.",
+    "longDescription": "Long_description"
+  },
+  "254": {
+    "title": "Node 254 - Extreme narcissist, severe psychopath, rather Machiavellian",
+    "shortDescription": "Sadistic, amoral loudmouth with a total lack of empathy and a constant need for admiration. Obsessed with power, success, and appearance. Their personal relationships are built on deceit and manipulation. Will plot to tear down people they envy.",
+    "longDescription": "Long_description"
+  },
+  "255": {
+    "title": "Node 255 - Extreme narcissistic psychopath, moderate Machiavellian",
+    "shortDescription": "Arrogant, exploitative, insensitive, and deceitful. Glib and superficially charming, with a need to explain why peopel should envy them. Capable of emotional manipulation, but a complete inability to form genuine emotional attachments. While they carefully plan their crimes, they’re also likely to just do something on violent impulse.",
+    "longDescription": "Long_description"
+  },
+  "300": {
+    "title": "Node 300 - Unusually Machiavellian",
+    "shortDescription": "A cautious manipulator who likes to work in the shadows. Empathetic and capable of complex emotional manipulation, using guilt, flattery, and lies. Doesn’t believe ordinary rules apply to them. Considers their goals higher than individual harm and suffering, but feels guilt over suffering they feel is necessary.",
+    "longDescription": "Long_description"
+  },
+  "301": {
+    "title": "Node 301 - Notably Machiavellian and slightly psychopathic",
+    "shortDescription": "A manipulative planner who’s capable of understanding other people’s feelings to get what they want out of them, but doesn’t care all that much about them otherwise. Is a bit impulsive and is sometimes amused by suffering.",
+    "longDescription": "Long_description"
+  },
+  "302": {
+    "title": "Node 302 - Unusually Machiavellian, relatively psychopathic",
+    "shortDescription": "A manipulative bully who seeks out new experiences. More interested in status and power than fame. Usually self-controlled, but known to lash out at people or take an impulsive risk. Their lies can be charming and convincing.",
+    "longDescription": "Long_description"
+  },
+  "303": {
+    "title": "Node 303 - Uncommonly psychopathic and Machiavellian",
+    "shortDescription": "A vengeful bully with elaborate schemes for controlling people, and hurting those who resist. They tend to stay out of the spotlight, but are very concerned with appearances and can make a good first impression. Enjoys the occasional impulsive crime to prove that the rules don’t apply to them.",
+    "longDescription": "Long_description"
+  },
+  "304": {
+    "title": "Node 304 - Severely psychopathic, fairly Machiavellian",
+    "shortDescription": "An impulsive, violent criminal who is able to recognize people’s emotions as tools to hurt and control them. Tries to maintain appearances, but doesn’t care what anyone thinks of them. Makes plans, but random violence is always an option.",
+    "longDescription": "Long_description"
+  },
+  "305": {
+    "title": "Node 305 - Monstrously psychopathic, markedly Machiavellian",
+    "shortDescription": "Remorseless, shallow, cold, and impulsively violent. Can be charming and is well-groomed without being too flashy. They seek power, and would prefer to do it quietly, but aggression and brutality are also fine. Will work to destroy anyone who questions their status.",
+    "longDescription": "Long_description"
+  },
+  "310": {
+    "title": "Node 310 - Unusually Machiavellian, slightly narcissistic",
+    "shortDescription": "Cautious yet gregarious schemer. Enjoys attention, but is self-controlled and keeps their true plans hidden. Often lies, but as a means to an end. Not very impulsive, but does seek out new experiences.",
+    "longDescription": "Long_description"
+  },
+  "311": {
+    "title": "Node 311 - Unusually Machiavellian, slightly psychopathic and narcissistic",
+    "shortDescription": "Skilled emotional manipulator who keeps their intentions hidden, and sometimes lies just for the pleasure of it. Can be funny and gregarious, but has a sadistic streak.",
+    "longDescription": "Long_description"
+  },
+  "312": {
+    "title": "Node 312 - Quite Machiavellian, moderately psychopathic, and just a bit narcissistic",
+    "shortDescription": "A cautious schemer, who likes to take occasional necessary risks. Can be charming and enjoys being emotionally manipulative. Doesn’t believe the rules apply to them, and sometimes breaks them just to prove they can.",
+    "longDescription": "Long_description"
+  },
+  "313": {
+    "title": "Node 313 - Appreciably psychopathic and Machiavellian, slightly narcissistic",
+    "shortDescription": "Skilled emotional manipulator who seeks power more than fame. Can be funny and ingratiating, and likes to show off a bit, but keeps their true intentions hidden. Can be a sadistic bully, and vengeful when crossed.",
+    "longDescription": "Long_description"
+  },
+  "314": {
+    "title": "Node 314 - Intensely psychopathic, appreciably Machiavellian, slightly psychopathic",
+    "shortDescription": "A cruel, shallow bully who uses emotional manipulation to gain power. Can be funny and ingratiating. Can be impulsively violent. Does not care who their schemes may hurt, and will enjoy the suffering of anyone who interferes.",
+    "longDescription": "Long_description"
+  },
+  "315": {
+    "title": "Node 315 - Monstrously psychopathic, uncommonly Machiavellian, slightly narcissistic",
+    "shortDescription": "A remorseless sadist, capable of complex emotional manipulation to gain power. While they may have long-term plans to cheat and steal from their prey, they’re perfectly happy to use sudden violence to take what they want.",
+    "longDescription": "Long_description"
+  },
+  "320": {
+    "title": "Node 320 - Notably Machiavellian, moderately narcissistic",
+    "shortDescription": "Good at long term planning. Attentive to other people, and capable of complex emotional manipulation, using guilt and flattery. Often dominates conversations and enjoys attention, but usually hides their intentions and seeks status more than fame.",
+    "longDescription": "Long_description"
+  },
+  "321": {
+    "title": "Node 321 - Appreciably Machiavellian, relatively narcissistic, a touch psychopathic",
+    "shortDescription": "Will likely lie, if they see a way to gain from it. Has several schemes going, but occasionally lashes out at random, especially if they feel disrespected. Capable of empathy, as a tool for emotional manipulation, but doesn’t otherwise care much about anyone else’s feelings.",
+    "longDescription": "Long_description"
+  },
+  "322": {
+    "title": "Node 322 - Fairly Machiavellian, somewhat narcissistic and psychopathic",
+    "shortDescription": "Often funny and gregarious, usually stretches the truth, always looking for an angle. Likes to plan things out, but sometimes just does a crime as a treat. Takes note of people’s feelings to better manipulate them, but doesn’t care about their pain.",
+    "longDescription": "Long_description"
+  },
+  "323": {
+    "title": "Node 323 - Markedly psychopathic and Machiavellian, relatively narcissistic",
+    "shortDescription": "Likes to dress well, good at witty banter, has a very loose relationship to the truth. Believes rules are for the little people. Usually seeking a new thrill, which probably involves tricking you in some hurtful way.",
+    "longDescription": "Long_description"
+  },
+  "324": {
+    "title": "Node 324 - Intensely psychopathic, quite Machiavellian, rather narcissistic",
+    "shortDescription": "Likes coming up with new ways to exert control over people. Funny and gregarious. Capable of complex emotional manipulation and planned-out schemes, but highly prone to impulsive thrills and violence.",
+    "longDescription": "Long_description"
+  },
+  "325": {
+    "title": "Node 325 - Extreme psychopath, unusually Machiavellian, moderate narcissist",
+    "shortDescription": "Lacks all empathy and remorse, but is able to recognize emotions and manipulate people by faking them. Will take what they want, use flattery and lies, or aggression and force. Enjoys wanton cruelty and has no concern about consequences.",
+    "longDescription": "Long_description"
+  },
+  "330": {
+    "title": "Node 330 - Notably Machiavellian and narcissistic",
+    "shortDescription": "Boastful schemer. Has self-control and can focus on long term goals. Needs to be the center of attention, but seeks status more than fame. Seems to be revealing much more about themselves than they actually are.",
+    "longDescription": "Long_description"
+  },
+  "331": {
+    "title": "Node 331 - Appreciably Machiavellian and narcissistic, a wee bit psychopathic",
+    "shortDescription": "Boastful schemer with an edgy streak. Somewhat impulsive. Prone to grandiosity. Capable of empathy, as a tool for emotional manipulation. Is usually lying.",
+    "longDescription": "Long_description"
+  },
+  "332": {
+    "title": "Node 332 - Notably Machiavellian and narcissistic, rather psychopathic",
+    "shortDescription": "Hides intentions, disobeys rules. Enjoys deceiving people without necessarily having a reason. Capable of empathy to the degree needed to manipulate someone, but rarely feels bad about their actions.",
+    "longDescription": "Long_description"
+  },
+  "333": {
+    "title": "Node 333 - Unusually Machiavellian, narcissistic, and psychopathic",
+    "shortDescription": "Seeks status, power, and attention. Seems to bring you in to their confidence by revealing personal details, which are probably lies. Very appearance conscious. Vengeful and sadistic when they feel you’ve crossed them.",
+    "longDescription": "Long_description"
+  },
+  "334": {
+    "title": "Node 334 - Deeply psychopathic, appreciably Machiavellian and narcissistic",
+    "shortDescription": "While they love attention and try to impress everyone, they seek power more than fame. When they concern themselves with other people’s feelings, it’s to manipulate and control them. Prone to sudden outbursts.",
+    "longDescription": "Long_description"
+  },
+  "335": {
+    "title": "Node 335 - Total psychopath, appreciable narcissist and Machiavellian",
+    "shortDescription": "A charming, impulsive bully. Can be funny, if you like cruel humor. Talks about themselves incessantly, and will likely be clear about their selfish intentions. Capable of empathy, as a tool for sadism and violence.",
+    "longDescription": "Long_description"
+  },
+  "340": {
+    "title": "Node 340 - Acute narcissist, moderate Machiavellian",
+    "shortDescription": "Snappy-dressing fame-seeker who takes pleasure in the misfortune of others. While they have self-control and are good at long-term planning, they may lash out violently if they feel insulted.",
+    "longDescription": "Long_description"
+  },
+  "341": {
+    "title": "Node 341 - Severe narcissist, markedly Machiavellian, dollop of psychopath",
+    "shortDescription": "Brings every conversation around to their amazing new scheme, and is probably lying about it. Very concerned with the social status. A smooth-talking flatterer, who occasionally drops the mask revealing a sneer.",
+    "longDescription": "Long_description"
+  },
+  "342": {
+    "title": "Node 342 - Intensely narcissistic, unusually Machiavellian, sort of a psychopath",
+    "shortDescription": "Climbs people like a ladder. Takes pleasure in the misfortune of others. Capable of complex emotional manipulation, using guilt and flattery. Can react violently to ego threats, but will more likely plot their revenge.",
+    "longDescription": "Long_description"
+  },
+  "343": {
+    "title": "Node 343 - Intensely narcissistic, unusually psychopathic and Machiavellian",
+    "shortDescription": "While they have several long-term plans going, they will often act on impulse without thinking it through. Does not care what you think, but may act as if they do if it helps gets them what they want. Wears tailored clothes, sometimes with an unexplained bloodstain or two.",
+    "longDescription": "Long_description"
+  },
+  "344": {
+    "title": "Node 344 - Profoundly psychopathic and narcissistic, appreciably Machiavellian",
+    "shortDescription": "Takes sadistic pleasure in other people’s suffering, but capable of hiding it for the sake of appearances. Prone to impulsive, thrill-seeking, they’ll manipulate you with lies, flattery and guilt just to see how much pain they can cause.",
+    "longDescription": "Long_description"
+  },
+  "345": {
+    "title": "Node 345 - Monstrously psychopathic, intensely narcissistic, unusually Machiavellian",
+    "shortDescription": "They care about their public image but absolutely do not care about you. Extremely impulsive and cruel. Enjoys thinking up new ways to cause suffering. Reacts with emotional and physical violence if called out.",
+    "longDescription": "Long_description"
+  },
+  "350": {
+    "title": "Node 350 - Staggeringly narcissistic and notably Machiavellian",
+    "shortDescription": "A charming liar who knows they’re the most important person in the world. Capable of complex emotional manipulation, making you feel like a friend and ally in their plans, right up until they destroy you.",
+    "longDescription": "Long_description"
+  },
+  "351": {
+    "title": "Node 351 - Completely narcissistic, abundantly Machiavellian, a smidge psychopathic",
+    "shortDescription": "They see their constant lies part of a quirky public persona. A charming braggart who manipulates people in several ways at once, flattery and gossip, insults and apologies. But when they suddenly lash out, it’s very sincere.",
+    "longDescription": "Long_description"
+  },
+  "352": {
+    "title": "Node 352 - Staggeringly narcissistic, quite Machiavellian, moderately psychopathic",
+    "shortDescription": "Extremely impulsive braggart who can be very charming, at first. Tells obvious lies without any clear motivation. Reacts aggressively if their status is threatened. Capable of empathy as a tool for emotional manipulation, but feels little remorse.",
+    "longDescription": "Long_description"
+  },
+  "353": {
+    "title": "Node 353 - Monstrously narcissistic, appreciably psychopathic and Machiavellian",
+    "shortDescription": "Vengeful, appearance-obsessed liar. Needs to completely dominate all social situations. Sadistic, spiteful, and impulsive. Will destroy people over real and imagined slights. When they brag about the pain they’ve caused, you’d better find the story amusing.",
+    "longDescription": "Long_description"
+  },
+  "354": {
+    "title": "Node 354 - Extremely narcissist, acute psychopath, notable Machiavellian",
+    "shortDescription": "Manipulative, remorseless egomaniac. Capable of long-term planning, but more likely to do crimes on impulse. Loves to brag about all the crimes they’ve done. Will destroy whoever it takes to be the boss of the crime gang.",
+    "longDescription": "Long_description"
+  },
+  "355": {
+    "title": "Node 355 - Monstrously psychopathic and narcissistic, notably Machiavellian",
+    "shortDescription": "Capable of complex emotional manipulation, but usually doesn’t care enough to bother and prefers outbursts of sudden violence. Anyone who makes them look bad must be made a brutal example. Likes to use dull knives while telling dad jokes.",
+    "longDescription": "Long_description"
+  },
+  "400": {
+    "title": "Node 400 - Pure Machiavellian",
+    "shortDescription": "Sees the world as a machine to manipulate in their own self-interests. Totally amoral, but cautious and self-controlled. Cynical and sadistic. Cheating and manipulation are their distinguishing traits, but they’re very good at hiding it.",
+    "longDescription": "Long_description"
+  },
+  "401": {
+    "title": "Node 401 - Deeply Machiavellian with a wee bit of psychopathy",
+    "shortDescription": "Thinks highly of themselves but little of the world. Enjoys getting away with things. A master manipulator who usually takes care while taking advantage, but prone to the occasional impulsive risk.",
+    "longDescription": "Long_description"
+  },
+  "402": {
+    "title": "Node 402 - Severe Machiavellian, moderate psychopath",
+    "shortDescription": "A cold-hearted charmer who wants to let you in on a special deal. Can recognize other people’s feelings, but only as ways to control them.  Has their schemes planned out, but will sometimes break the law just for the thrill of it.",
+    "longDescription": "Long_description"
+  },
+  "403": {
+    "title": "Node 403 - Intensely Machiavellian, notably psychopathic",
+    "shortDescription": "Erratic, scheming bully. Hides their true intentions, and enjoys lying for its own sake. Has an aggressive and self-defeating sense of humor. If you join in to make fun of them, they will find a way to make you pay for it.",
+    "longDescription": "Long_description"
+  },
+  "404": {
+    "title": "Node 404 - Exceedingly psychopathic and Machiavellian",
+    "shortDescription": "Seeks power over other people, through manipulation and deceit when possible, through force and aggression when the mood takes them. Recognizes the pain they cause, but only cares about it to the extent it’s useful for control.",
+    "longDescription": "Long_description"
+  },
+  "405": {
+    "title": "Node 405 - Complete psychopath, severely Machiavellian",
+    "shortDescription": "A maniac with a plan. While they’re patient about letting their schemes unfold, they’re also prone to acting impulsively without any concern for consequences. Breaking the rules is a reward in itself, especially if it involves violence and cruelty.",
+    "longDescription": "Long_description"
+  },
+  "410": {
+    "title": "Node 410 - Severe Machiavellian, smidge of narcissism",
+    "shortDescription": "Cynical, amoral, egoist. Conscientious and has self-control, but doesn’t believe the rules of the little people apply to them. Relationships are just tools. Can be funny and gregarious, but is extremely deceptive and will find a way to come out on top.",
+    "longDescription": "Long_description"
+  },
+  "411": {
+    "title": "Node 411 - Intensely Machiavellian, with some light narcissism and psychopathy",
+    "shortDescription": "Quietly egomaniacal con artist. Enjoys manipulating people and seeing what lies they can get away with. Breaks rules just to prove they don’t apply.",
+    "longDescription": "Long_description"
+  },
+  "412": {
+    "title": "Node 412 - Severe Machiavellian, moderate psychopath, smidge of narcissist",
+    "shortDescription": "Considers themselves smarter than everyone around them, so it’s only right to take advantage of the world’s many idiots. Self-centered, rather boastful. Good at long-term planning, but enjoys the thrill of an occasional gamble.",
+    "longDescription": "Long_description"
+  },
+  "413": {
+    "title": "Node 413 - Acutely Machiavellian, markedly psychopathic, a dash of narcissism",
+    "shortDescription": "Sadistic cheater who sees personal relationships as tools to gain power. Makes a good first impression without being too flashy. Is usually lying, and will take revenge on anyone who call them on it.",
+    "longDescription": "Long_description"
+  },
+  "414": {
+    "title": "Node 414 - Profoundly psychopathic and Machiavellian, vaguely narcissistic",
+    "shortDescription": "Violent manipulative criminal who savors a long con. May seem charming and well-put-together, but that’s just a cover for their impulsive, sadistic nature. Doesn’t care who they hurt or how, as long as they get what they want.",
+    "longDescription": "Long_description"
+  },
+  "415": {
+    "title": "Node 415 - Total psychopath, somewhat narcissistic, severely Machiavellian",
+    "shortDescription": "A manipulative egotist who thrives on the suffering of others. Does what they want, when they want, with no regard for rules or consequences. Can be charming, but only as a tool to get what they want.",
+    "longDescription": "Long_description"
+  },
+  "420": {
+    "title": "Node 420 - Intensely Machiavellian, moderately narcissistic",
+    "shortDescription": "Cold-hearted charmer, who can be funny and gregarious while taking advantage. Tends to dominate conversations with carefully exaggerated stories. Conscientious and empathetic to the degree it helps fool people.",
+    "longDescription": "Long_description"
+  },
+  "421": {
+    "title": "Node 421 - Severe Machiavellian, sort of a narcissist, nominal psychopath",
+    "shortDescription": "A master manipulator who takes care while taking advantage, but prone to the occasional impulsive risk. Enjoys being the center of attention, which they feel naturally entitled to since everyone else is so simple.",
+    "longDescription": "Long_description"
+  },
+  "422": {
+    "title": "Node 422 - Profoundly Machiavellian, moderately psychopathic and narcissistic",
+    "shortDescription": "Flashy, erratic cheater. Thinks highly of themselves but little of the world. If people get hurt while making a deal, that’s just business, and also kind of hilarious.",
+    "longDescription": "Long_description"
+  },
+  "423": {
+    "title": "Node 423 - Intensely Machiavellian, markedly psychopathic, rather narcissistic",
+    "shortDescription": "Manipulative, sadistic schemer. Well-groomed and gregarious. Likes to chat people up and see what lies they’ll swallow. Capable of understanding other people’s feelings, while not particularly caring about them.",
+    "longDescription": "Long_description"
+  },
+  "424": {
+    "title": "Node 424 - Severe Machiavellian and psychopath, moderate narcissist",
+    "shortDescription": "Cynical, power-seeking bully. Likes to look good and cause pain. Hobbies include getting away with crime, exploiting suckers, and telling dirty jokes. Has a plan for world domination, but might decide to go with arson instead.",
+    "longDescription": "Long_description"
+  },
+  "425": {
+    "title": "Node 425 - Complete psychopath, exceedingly Machiavellian, somewhat narcissistic",
+    "shortDescription": "Seeks power, preferably by means of other people’s suffering. Rules mean nothing, only victory. Recognizes emotions as a manipulative tool, but utterly incapable of empathy or remorse. Lies and violence, jokes and smiles. Whatever works.",
+    "longDescription": "Long_description"
+  },
+  "430": {
+    "title": "Node 430 - Profoundly Machiavellian and markedly narcissist",
+    "shortDescription": "Amoral power-seeker. Can be charming and funny, is usually well put together. Sees other people as tools to be used, and personal interactions as small games in their larger plans.",
+    "longDescription": "Long_description"
+  },
+  "431": {
+    "title": "Node 431 - Severely Machiavellian, abundantly narcissistic, vaguely psychopathic",
+    "shortDescription": "Thinks very highly of themselves but little of the world. Laws and morality don’t apply to them. Loves to be the center of attention, thinks nothing of the people giving it. Is prone to aggressive and self-defeating humor, especially if it can be used to lure someone into a false confidence.",
+    "longDescription": "Long_description"
+  },
+  "432": {
+    "title": "Node 432 - Acutely Machiavellian, quite narcissistic, rather psychopathic",
+    "shortDescription": "Amoral power-seeker who has occasional impulsive outbursts. Can be charming, has little empathy. Does not care about the consequences of their actions beyond how it makes them look and how it fits into their plans.",
+    "longDescription": "Long_description"
+  },
+  "433": {
+    "title": "Node 433 - Intensely Machiavellian, markedly narcissistic and psychopathic",
+    "shortDescription": "Manipulative schemer who seeks control over people. Can use emotional manipulation and flattery, but impulsive violence is also fine. Has big plans, but also enjoys randomly breaking laws and lying as a hobby. Needs to be respected. If you question them, they will add vengeance against you to their plans.",
+    "longDescription": "Long_description"
+  },
+  "434": {
+    "title": "Node 434 - Deeply psychopathic and Machiavellian, appreciably narcissistic",
+    "shortDescription": "A manipulative bully, who tells colorful lies about their exploits. Charming and well-groomed, they can make a good first impression. Will make you feel like a suddenly intimate friend, since that’s the best way to find your weak spot. Sadistic and prone to violent outbursts, but especially enjoys long-form emotional torture.",
+    "longDescription": "Long_description"
+  },
+  "435": {
+    "title": "Node 435 - Monstrously psychopathic, intensely Machiavellian, markedly narcissistic",
+    "shortDescription": "Amoral, deceptive, aggressive, and violent. Good at long term planning, but beyond their own power, they’re completely unconcerned with the consequences of their actions. Fun at parties, most of the time. Likes to show off scars from the other times.",
+    "longDescription": "Long_description"
+  },
+  "440": {
+    "title": "Node 440 - Severely narcissistic and Machiavellian",
+    "shortDescription": "Seeks power and glory. Rules mean nothing, only victory. Very concerned about their appearance, and while usually cautious, has very poor impulse control. Capable of empathy, but takes pleasure in the misfortune of others.",
+    "longDescription": "Long_description"
+  },
+  "441": {
+    "title": "Node 441 - Acutely narcissistic and Machiavellian, slightly psychopathic",
+    "shortDescription": "Cynical, amoral, egomaniac with a sadistic streak. Needs to be in charge and will try to destroy anything preventing it. Is usually lying, often for no good reason. Will find a way to con you and then brag about it to your face.",
+    "longDescription": "Long_description"
+  },
+  "442": {
+    "title": "Node 442 - Exceedingly narcissistic and Machiavellian, somewhat psychopathic",
+    "shortDescription": "Scheming braggart who cares far more about their image than how you feel. Unless they believe you made them look bad, in which case they care very much about hurting you. Makes plans, but often takes unnecessary risks just for the thrill of it.",
+    "longDescription": "Long_description"
+  },
+  "443": {
+    "title": "Node 443 - Intensely narcissistic and Machiavellian, unusually psychopathic",
+    "shortDescription": "A vengeful brand identity. They’ve got something to sell you, they will always get the better end of the deal, and if you object, you will be punished.",
+    "longDescription": "Long_description"
+  },
+  "444": {
+    "title": "Node 444 - Intensely psychopathic, narcissistic, and Machiavellian",
+    "shortDescription": "Callous, deceitful, vengeful, and manipulative. Puts a lot of effort into their appearance, for better or worse. Sees all rules as made for breaking. Is almost always lying, and if you call them out on it, they will loudly and violently explain how you are the liar.",
+    "longDescription": "Long_description"
+  },
+  "445": {
+    "title": "Node 445 - Total psychopath, profound narcissist and Machiavellian",
+    "shortDescription": "Amoral maniac with a good mask. Concerned about appearances, but is extremely impulsive, and reacts violently to perceived insults. Can recognize emotions, but feels no empathy and enjoys causing pain.",
+    "longDescription": "Long_description"
+  },
+  "450": {
+    "title": "Node 450 - Completely narcissistic and exceedingly Machiavellian",
+    "shortDescription": "Appearance-obsessed schemer who wants to be your friend while they con you. If you figure out the con, they will destroy you like the worthless insect you are.",
+    "longDescription": "Long_description"
+  },
+  "451": {
+    "title": "Node 451 - Complete narcissist, acutely Machiavellian, vaguely psychopathic",
+    "shortDescription": "Can be charming and fun to be around, if they think you might be useful. Cares more about their shoes than your humanity. Considers themselves the only one who matters. Will react very aggressively if their status is threatened.",
+    "longDescription": "Long_description"
+  },
+  "452": {
+    "title": "Node 452 - Extreme narcissism, deeply Machiavellian, rather psychopathic",
+    "shortDescription": "Tells obvious lies, daring you to point them out. If you accept them, they consider you a mark and will act kind and charming till you no longer serve your purpose. If you question them, they consider you a bug that needs to be squashed.",
+    "longDescription": "Long_description"
+  },
+  "453": {
+    "title": "Node 453 - Completely narcissistic profoundly Machiavellian, notably psychopathic",
+    "shortDescription": "Erratic, scheming egomaniac. Obsessed with status and power, and will explain at length why they deserve both. The explanation will be a lie, because no one is capable of understanding their true plans.",
+    "longDescription": "Long_description"
+  },
+  "454": {
+    "title": "Node 454 - Complete narcissist, acutely psychopathic and Machiavellian",
+    "shortDescription": "Flamboyant, remorseless criminal. Amoral, status-obsessed, constantly bragging about their exploits, real and imagined. Seeks out clever new ways to break laws and inflict suffering.",
+    "longDescription": "Long_description"
+  },
+  "455": {
+    "title": "Node 455 - Total narcissistic psychopath, intensely Machiavellian",
+    "shortDescription": "Extravagantly brutal sadist. Seeks fame and power. If they achieve through violence and pain, all the better. Capable of recognizing and manipulating emotions, without actually caring in the slightest. Can be charming and funny, right before the torture starts.",
+    "longDescription": "Long_description"
+  },
+  "500": {
+    "title": "Node 500 - Pure Machiavellian",
+    "shortDescription": "Sees the world as a machine to manipulate in their own self-interests. Totally amoral, but cautious and self-controlled. Cynical and sadistic. Cheating and manipulation are their distinguishing traits, but they’re very good at hiding it.",
+    "longDescription": "Long_description"
+  },
+  "501": {
+    "title": "Node 501 - Extremely Machiavellian, and a wee bit psychopathic",
+    "shortDescription": "Cynical amoral manipulator who’s usually good at masking it, but their sadistic impulses sometimes get the better of them. Doesn’t seek attention, but does enjoy knowing how successfully they’ve cheated someone.",
+    "longDescription": "Long_description"
+  },
+  "502": {
+    "title": "Node 502 - Extremely Machiavellian, moderately psychopathic",
+    "shortDescription": "Considers the world their personal game to win, not for the glory, but just knowing they’re on top. Good at long term schemes, but sometimes breaks the law just for the thrill of proving how irrelevant it is. Enjoys using their charm to cause pain.",
+    "longDescription": "Long_description"
+  },
+  "503": {
+    "title": "Node 503 - Extremely Machiavellian, notably psychopathic",
+    "shortDescription": "Lying, cheating, sadistic manipulator who does not believe in the existence of morality or law. Does not seek fame or admiration, just power. Often able to lure people into their schemes before suddenly unleashing an elaborate torture. Also enjoys the occasional violent outburst or random crime.",
+    "longDescription": "Long_description"
+  },
+  "504": {
+    "title": "Node 504 - Extremely Machiavellian, profoundly psychopathic",
+    "shortDescription": "While they don’t want to toot their own horn, they do want to exert total control over everyone around them. They’ll try to do it with quiet plans, slowly unfolding, but their sadistic desire for extreme experiences often leads to sudden cruelty and random crimes.",
+    "longDescription": "Long_description"
+  },
+  "505": {
+    "title": "Node 505 - Extreme Machiavellian psychopath",
+    "shortDescription": "Deranged amoral crime lover with lots of careful schemes but zero concern for consequences. Doesn't seek widespread attention and prefers to work under the radar, but being hated as a means to power is also fine. Self-controlled most of the time, and uses the unpredictability of their sudden outbursts to keep people afraid.",
+    "longDescription": "Long_description"
+  },
+  "510": {
+    "title": "Node 510 - Total Machiavellian with a smidge of narcissism",
+    "shortDescription": "Selfish schemer who sees the world as a game to win, and everyone but themselves as pieces to be played. Laws and morals are for the little people. It’s a shame how some of the have to be treated, but that’s just the way the world works.",
+    "longDescription": "Long_description"
+  },
+  "511": {
+    "title": "Node 511 - Extreme Machiavellian with a touch of psychopathy and narcissism",
+    "shortDescription": "A manipulative bully who loves to cheat people just for the fun of it. Can be rather charming while they’re lying. Can sometimes feel a twinge of remorse for the pain they cause, but not enough to change the plan. Will come out on top in every situation, one way or another, no matter how long it takes.",
+    "longDescription": "Long_description"
+  },
+  "512": {
+    "title": "Node 512 - Absolutely Machiavellian, moderately psychopathic, slightly narcissistic",
+    "shortDescription": "Cynical, sadistic, and completely amoral. Skilled at long term planning for their own benefit, and keeping the true nature of the deal hidden. Can be gregarious and funny, often making self-depreciating jokes, while quietly believing they are above all laws and customs.",
+    "longDescription": "Long_description"
+  },
+  "513": {
+    "title": "Node 513 - Extreme Machiavellian, notably psychopathic, a little narcissistic",
+    "shortDescription": "Manipulative, sadistic cheater. Remorseless and cruel while executing their schemes, erratic and impulsive when challenged. Makes a good first impression without being too flashy. But since they constantly lie and considers relationships nothing more than tools, the impression rarely lasts.",
+    "longDescription": "Long_description"
+  },
+  "514": {
+    "title": "Node 514 - Total Machiavellian, severe psychopath, nominal narcissist",
+    "shortDescription": "Amoral sadist. Considers themselves a criminal mastermind, but tends to impulsively flip out a bit too much to pull it off. Likes talking about their clever plans, but is never telling the truth about them.",
+    "longDescription": "Long_description"
+  },
+  "515": {
+    "title": "Node 515 - Total Machiavellian psychopath, with a wee bit of narcissism",
+    "shortDescription": "Scheming, duplicitous criminal who lives beyond all concept of rules. Like to look good but doesn’t actually care what anyone thinks. Often withdrawn and self-controlled, but prone to outbursts, especially if they feel slighted. Prefers being manipulative, but always enjoys sudden violence.",
+    "longDescription": "Long_description"
+  },
+  "520": {
+    "title": "Node 520 - Completely Machiavellian, somewhat narcissistic",
+    "shortDescription": "Anxious yet seductive overthinker. Entirely self-interested and exploitswhoever they can. Capable of empathy as a tool, but certain their concerns are more important than anyone else’s mere feelings.",
+    "longDescription": "Long_description"
+  },
+  "521": {
+    "title": "Node 521 - Absolute Machiavellian, sort of narcissistic, vaguely psychopathic",
+    "shortDescription": "An utterly amoral manipulator. Likes to make a good impression and stick to the plan, but has an erratic streak.  Capable recognizing others’ feelings as tools for emotional manipulation, but doesn’t otherwise care about anyone beyond their utility.",
+    "longDescription": "Long_description"
+  },
+  "522": {
+    "title": "Node 522 - Extreme Machiavellian, relatively narcissistic and psychopathic",
+    "shortDescription": "Cynical, sadistic cheater. Can be gregarious and funny, if that’s what works. Enjoys trying to get people to believe ridiculous lies. And if they find a good sucker, they have plans for them.",
+    "longDescription": "Long_description"
+  },
+  "523": {
+    "title": "Node 523 - Completely Machiavellian, quite psychopathic, rather narcissistic",
+    "shortDescription": "An opportunistic sadist. Always lying, but rather persuasive. Can be fun at parties, till they ruin them with tasteless jokes or violent outbursts. Given how thoroughly they usually plan, the things that motivate their sudden vengeance can be surprisingly small or petty.",
+    "longDescription": "Long_description"
+  },
+  "524": {
+    "title": "Node 524 - Extreme Machiavellian profoundly psychopathic, relatively narcissistic",
+    "shortDescription": "Scheming cheater, prone to impulsive thrills and violence. Likes coming up with clever new ways to control people. Capable of complex emotional manipulation without any genuine concern for anyone’s feelings. Seductive lies and violent threats are all just part of the fun.",
+    "longDescription": "Long_description"
+  },
+  "525": {
+    "title": "Node 525 - Total Machiavellian psychopath, with moderate narcissism",
+    "shortDescription": "Erratic, remorseless bully who likes to look good and cause pain. Has elaborate long-term plans, but is also an extremely impulsive thrill-seeker. Recognizes emotions as a manipulative tool, but utterly incapable of empathy. Rules mean nothing, only power.",
+    "longDescription": "Long_description"
+  },
+  "530": {
+    "title": "Node 530 - Extreme Machiavellian, quite narcissistic",
+    "shortDescription": "Extremely cynical overthinker. Self-controlled and good at long term planning. Entirely self-interested and tries to exploit whoever they can. Enjoys being the center of attention, but not letting people know what they’re really up to.",
+    "longDescription": "Long_description"
+  },
+  "531": {
+    "title": "Node 531 - Extreme Machiavellian, markedly narcissistic, slightly psychopathic",
+    "shortDescription": "Chatty, snappy dresser, good at self-promotion. Manages to be somewhat flamboyant while keeping their true intentions entirely hidden. Believes that all laws and customs only exist to manipulate others. Enjoys causing suffering, and good at not being identified as the cause of it.",
+    "longDescription": "Long_description"
+  },
+  "532": {
+    "title": "Node 532 - Total Machiavellian, unusually narcissistic and psychopathic",
+    "shortDescription": "Completely amoral string-puller. Can be charming, but has no empathy. Likes to look good, but as long as people are operating according to plan, doesn’t care what they really think. Usually self-controlled, with occasional outbursts at glory stealers, and the occasional thrill crime.",
+    "longDescription": "Long_description"
+  },
+  "533": {
+    "title": "Node 533 - Extreme Machiavellian, appreciably narcissistic and psychopathic",
+    "shortDescription": "Devious competitive cheater who seeks power and control. Cynical and sadistic, but prefers keeping up appearances while always hiding their true intentions. Capable of emotional manipulation, but impulsive violence is also fine.",
+    "longDescription": "Long_description"
+  },
+  "534": {
+    "title": "Node 534 - Extraordinarily Machiavellian, intensely psychopathic, quite narcissistic",
+    "shortDescription": "They’ve got something to sell you, and will always get the better end of the deal. Need to exert total control over everyone around them. They prefer seductive lies and careful plans, but their preference for extreme experiences often leads to sudden cruelty and random crimes.",
+    "longDescription": "Long_description"
+  },
+  "535": {
+    "title": "Node 535 - Total Machiavellian psychopath, appreciably narcissistic",
+    "shortDescription": "Deranged amoral crime lover who likes to look good and cause pain. Rules mean nothing, only power. Recognizes emotions as a manipulative tool, but utterly incapable of empathy or remorse. Capable of complex emotional manipulation without any genuine concern for anyone’s feelings.",
+    "longDescription": "Long_description"
+  },
+  "540": {
+    "title": "Node 540 - Completely Machiavellian, profoundly narcissistic",
+    "shortDescription": "Overconfident exploiter who thinks the world revolves around them. Cares more about their image than your humanity. Considers themselves the only one who matters. Usually self-controlled, but prone to aggressive outbursts if their status is threatened.",
+    "longDescription": "Long_description"
+  },
+  "541": {
+    "title": "Node 541 - Extremely Machiavellian, acutely narcissistic and psychopathic",
+    "shortDescription": "Scheming manipulator who loves to make people dance to their tune. Has grand plans, but prone to impulsive thrills. Is a chatty, snappy dresser, and a good self-promoter, but also doesn’t think twice about destroying anyone who gets in the way of their goals.",
+    "longDescription": "Long_description"
+  },
+  "542": {
+    "title": "Node 542 - Exceedingly Machiavellian, quite narcissistic, somewhat psychopathic",
+    "shortDescription": "Completely amoral schemer who thinks the rules don’t apply to them. Can be quite charming, but doesn’t really care about anyone except themselves. Has a flair for the dramatic, often coming up with elaborate plans just for the fun of it.",
+    "longDescription": "Long_description"
+  },
+  "543": {
+    "title": "Node 543 - Totally Machiavellian, severely narcissistic and psychopathic",
+    "shortDescription": "Remorseless cheater who enjoys lying and manipulation. Considers themselves the most important person in the world, but usually keeps it hidden behind a charming facade. If you ever get on their bad side, expect a swift and merciless revenge.",
+    "longDescription": "Long_description"
+  },
+  "544": {
+    "title": "Node 544 - Total Machiavellian, with a touch of narcissism and psychopathy",
+    "shortDescription": "Anxious, impulsive, and manipulative, with a flair for the dramatic. Will exploit anyone for their own gain, and doesn’t care who gets hurt in the process. Enjoys being the center of attention, and will do anything to maintain their status.",
+    "longDescription": "Long_description"
+  },
+  "545": {
+    "title": "Node 545 - Extremely Machiavellian psychopath, profoundly narcissistic",
+    "shortDescription": "Amoral, manipulative, and sadistic, with a carefully crafted image to hide their true nature. Will lie, cheat, and manipulate to get what they want, without any concern for the consequences. Enjoys causing pain and suffering, and will do whatever it takes to maintain their power.",
+    "longDescription": "Long_description"
+  },
+  "550": {
+    "title": "Node 550 - Total Machiavellian narcissist",
+    "shortDescription": "Entirely self-interested and amoral egomaniac. Has self-control and ability for long-term thinking, which they use to exploit whoever they can. Truth is irrelevant, only status and power. Needs to feel admired and tries to keep a good reputation, but tolerates no insult to their reputation.",
+    "longDescription": "Long_description"
+  },
+  "551": {
+    "title": "Node 551 - Staggeringly narcissistic and Machiavellian, with a dash of psychopathy",
+    "shortDescription": "Seductive, power-mad liar. Loves telling extravagant stories about their plans and schemes, which are all lies. The real plans often involve cheating their admiring audience. If someone calls out their schemes, they may become the target of the next plan.",
+    "longDescription": "Long_description"
+  },
+  "552": {
+    "title": "Node 552 - Extreme narcissist and Machiavellian, sort of a psychopath",
+    "shortDescription": "Flatterer, liar, schemer, guilt tripper. Completely amoral. Needs to be publicly admired, but does not care what people actually think of them. Likes to have a plan, but may do something risky and illegal just for the thrill.",
+    "longDescription": "Long_description"
+  },
+  "553": {
+    "title": "Node 553 - Completely narcissistic and Machiavellian, with an appreciable degree of psychopathy",
+    "shortDescription": "Exploitative egomaniac, always looking for an angle. Appearance-obsessed schemer, but also does not care who they hurt. They need to be in control and glorified for it. They also may lash out irrationally if it seems fun at the time.",
+    "longDescription": "Long_description"
+  },
+  "554": {
+    "title": "Node 554 - Staggeringly narcissistic and Machiavellian, acutely psychopathic",
+    "shortDescription": "Vengeful power-mad egomaniac. They don’t like humanity, but they do crave adoration. They will also accept unflinching obedience while causing as much suffering as possible. No remorse. No empathy. No morality. Sometimes they don’t lash out with violence, for which they expect immense gratitude.",
+    "longDescription": "Long_description"
+  },
+  "555": {
+    "title": "Node 555 - Total Machiavellian, narcissist, and psychopath",
+    "shortDescription": "Extravagantly violent, remorseless egomaniac who is both a florid performer and a secretive manipulator. Needs to be respected and glorified, while keeping all their true intentions hidden. Considers everyone worthless, while also craving their esteem. Capable of using emotions to manipulate and harm, without feeling the slightest remorse or empathy. Cynical, sadistic, entirely self-interested. An all-around asshole.",
+    "longDescription": "Long_description"
   }
-
 }

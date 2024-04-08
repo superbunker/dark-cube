@@ -11,7 +11,7 @@
 <div id="container">
 
     <div class="header">
-        <h1>Cube of Malevolence</h1>
+        <h1>The Dark Cube</h1>
    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
@@ -23,18 +23,7 @@
 
 
     <div class="footer">
-        <div class="control">
-            <label for="x">X:</label>
-            <input type="range" id="x" min="0" max="5" value="0" step="1" list="markers">
-        </div>
-        <div class="control">
-            <label for="y">Y:</label>
-            <input type="range" id="y" min="0" max="5" value="0" step="1" list="markers">
-        </div>
-        <div class="control">
-            <label for="z">Z:</label>
-            <input type="range" id="z" min="0" max="5" value="0" step="1" list="markers">
-        </div>
+
         <datalist id="markers">
             <option value="0"></option>
             <option value="1"></option>
@@ -43,10 +32,26 @@
             <option value="4"></option>
             <option value="5"></option>
         </datalist>
+
+        <div class="control">
+            <input type="range" id="x" min="0" max="5" value="0" step="1" list="markers">
+            <br><label for="x">Machiavelian</label>
+        </div>
+        <div class="control">
+            <input type="range" id="y" min="0" max="5" value="0" step="1" list="markers">
+            <br><label for="y">Narcissist</label>
+        </div>
+        <div class="control">
+            <input type="range" id="z" min="0" max="5" value="0" step="1" list="markers">
+            <br><label for="z">Psychopath</label>
+        </div>
+
+
+
         <div id="nodeNumber" class="control">
-            <label>Selected Node:</label>
             <span id="nodeNumberValue">000</span>
         </div>
+
     </div>
 
 </div><!-- container -->

@@ -87,14 +87,14 @@ document.addEventListener("DOMContentLoaded", function() {
         const nodeKey = `${x}${y}${z}`;
         const nodeInfo = nodeData[nodeKey] || {
             title: `Node (${x}, ${y}, ${z})`,
-            shortDescription: 'This node has no additional information.',
+            shortDescription: 'Description goes here.',
             longDescription: 'This node has no additional information.'
         };
 
         textOverlay.innerHTML = `
             <h2>${nodeInfo.title}</h2>
-            <p>${nodeInfo.shortDescription}</p>
-            <p>${nodeInfo.longDescription}</p>
+            <p class="shortdesc">${nodeInfo.shortDescription}</p>
+            <p class="longdesc">${nodeInfo.longDescription}</p>
         `;
         textOverlay.style.display = 'block'; // Show text overlay
     }
