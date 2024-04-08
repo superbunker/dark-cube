@@ -13,6 +13,6 @@
     "title": "Node (0, 0, 2)",
     "shortDescription": "Second step along the Z-axis.",
     "longDescription": "This node is located two units away from the origin along the positive Z-axis, continuing the progression along the Z-axis."
-  },
+  }
 
 }
