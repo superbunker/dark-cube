@@ -1,3 +1,15 @@
+let nodeData = {};
+
+async function loadNodeData() {
+    try {
+        const response = await fetch('data.json');
+        nodeData = await response.json();
+    } catch (error) {
+        console.error('Error loading node data:', error);
+    }
+}
+
+loadNodeData();
 
 document.addEventListener("DOMContentLoaded", function() {
     const cubeSize = 6;
@@ -70,10 +82,21 @@ document.addEventListener("DOMContentLoaded", function() {
         const nodeNumber = (x * 100) + (y * 10) + z;
         document.getElementById('nodeNumberValue').textContent = nodeNumber.toString().padStart(3, '0');
 
-        // Update text context content
+        // Update text overlay content
         const textOverlay = document.getElementById('text-overlay');
-        textOverlay.innerHTML = `Node: (${x}, ${y}, ${z})<br>Additional information here...`;
-        textOverlay.style.display = 'block'; // Show text context
+        const nodeKey = `${x}${y}${z}`;
+        const nodeInfo = nodeData[nodeKey] || {
+            title: `Node (${x}, ${y}, ${z})`,
+            shortDescription: 'This node has no additional information.',
+            longDescription: 'This node has no additional information.'
+        };
+
+        textOverlay.innerHTML = `
+            <h2>${nodeInfo.title}</h2>
+            <p>${nodeInfo.shortDescription}</p>
+            <p>${nodeInfo.longDescription}</p>
+        `;
+        textOverlay.style.display = 'block'; // Show text overlay
     }
 
     ['x', 'y', 'z'].forEach(axis => {
