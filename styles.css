@@ -87,3 +87,15 @@ canvas { display: block; }
 #text-overlay .longdesc {
     display: none;
 }
+
+
+/* Adjustments for touch-friendly controls */
+.control input[type="range"] {
+    width: 90%; /* Increase the width of the range inputs */
+    height: 40px; /* Increase the height of the range inputs */
+}
+
+.control label {
+    font-size: 18px; /* Increase the font size of the labels */
+    display: block; /* Ensure the labels are on their own line */
+}
