@@ -44,6 +44,9 @@ canvas { display: block; }
 }
 
 .footer #nodeNumber {
+    position: fixed;
+    bottom: 20%;
+    right: 3%;
     color: #444;
     font-weight: bold;
     font-size: 48px;
@@ -54,6 +57,7 @@ canvas { display: block; }
 
 .control {
     margin-top: 10px;
+    width: 30%;
 }
 
 
@@ -101,26 +105,3 @@ canvas { display: block; }
     display: block; /* Ensure the labels are on their own line */
 }
 
-
-
-/* Media query for small mobile devices */
-@media (max-width: 767px) {
-    /* Double the size of everything except the cube */
-
-    /* Double the font size */
-    body {
-        font-size: 200%;
-    }
-
-    /* Double the size of controls */
-    .control input[type="range"] {
-        width: 180%; /* Increase the width */
-        height: 80px; /* Increase the height */
-        padding: 10px; /* Increase padding */
-        margin-bottom: 40px; /* Increase margin */
-    }
-
-    .control label {
-        font-size: 36px; /* Increase the font size */
-    }
-}
