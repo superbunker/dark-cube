@@ -11,31 +11,31 @@ body {
 
 canvas { display: block; }
 
-.control {
-    display: inline-block;
-    margin: 10px;
-}
 
 .header, .footer {
+    background-color: #000;
+
     position: fixed;
     width: 100%;
-    background-color: #222;
-    /* padding: 10px; */
     box-sizing: border-box;
     z-index: 1000;
-    min-width: 740px;
+    min-width: 800px;
 }
 
 .header { 
-    background-color: #000000;
     top: 0; 
+}
+.footer { 
+    bottom: 0; 
+    text-align: center; 
+    margin: 0;
+    padding: 0 0 .5em 0;
 }
 
 .header h1 { 
     color: #222;
     text-shadow: 0px 0px 2px #999;
     font-weight: normal; 
-    /* font-size: 48px; */
     font-size: 10vw; 
     margin: .25em 0 0 .5em;
 }
@@ -54,25 +54,16 @@ canvas { display: block; }
     letter-spacing: .2em;
 }
 
-.footer { 
-    background-color: #000;
-    bottom: 0; 
-    text-align: center; 
-    margin: 0;
-    padding: 0 0 .5em 0;
-    width: 100%;
-}
-
 .control {
-    margin-top: 10px;
-    width: 28%;
+    display: inline-block;
+    margin: .5em;
+    width: 29vw;
 }
 
 .control label{
     color: #444;
     /* font-size: 36px !important; */
     font-size: 4vw !important; 
-
 }
 
 /* Styling for text overlay */
@@ -92,13 +83,13 @@ canvas { display: block; }
 
 #text-overlay h2{
     font-weight: bold; 
-    font-size: 14px;
+    font-size: 2vw;
     color: #999;
     margin: 0 0 1em 0;
 }
 
 #text-overlay .shortdesc {
-    font-size: 16px;
+    font-size: 3vw;
     line-height: 1.5em;
     margin: 0;
 }
@@ -109,13 +100,12 @@ canvas { display: block; }
 
 
 /* Adjustments for touch-friendly controls */
-.control input[type="range"] {
-    width: 90%; /* Increase the width of the range inputs */
-    height: 40px; /* Increase the height of the range inputs */
+/* .control input[type="range"] {
+    width: 90%; 
+    height: 40px; 
 }
 
 .control label {
-    font-size: 18px; /* Increase the font size of the labels */
-    display: block; /* Ensure the labels are on their own line */
-}
+    font-size: 18px; 
+    display: block;  */
 
