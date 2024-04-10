@@ -30,7 +30,13 @@ document.addEventListener("DOMContentLoaded", function() {
     for (let x = 0; x < cubeSize; x++) {
         for (let y = 0; y < cubeSize; y++) {
             for (let z = 0; z < cubeSize; z++) {
-                const color = new THREE.Color(`rgb(${255 - x * 51}, ${255 - y * 51}, ${255 - z * 51})`);
+
+                // CMY because it starts white and subtracts color toward the maximum
+                // const color = new THREE.Color(`rgb(${255 - x * 51}, ${255 - z * 51}, ${255 - y * 51})`);
+
+                // RGB becasue it starts black and adds color towards the maximum
+                const color = new THREE.Color(`rgb(${z * 51}, ${y * 51}, ${x * 51})`);
+
                 const nodeMaterial = new THREE.MeshBasicMaterial({ color: color, transparent: true, opacity: nodeOpacity });
                 const nodeGeometry = new THREE.SphereGeometry(0.1, 16, 16);
                 const node = new THREE.Mesh(nodeGeometry, nodeMaterial);
