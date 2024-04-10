@@ -23,7 +23,7 @@ canvas { display: block; }
     /* padding: 10px; */
     box-sizing: border-box;
     z-index: 1000;
-    min-width: 720px;
+    min-width: 740px;
 }
 
 .header { 
@@ -58,6 +58,7 @@ canvas { display: block; }
     background-color: #000;
     bottom: 0; 
     text-align: center; 
+    margin: 0;
     padding: 0 0 .5em 0;
 }
 
