@@ -12,6 +12,11 @@ body {
 canvas { display: block; }
 
 
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
 .header, .footer {
     background-color: #000;
 
@@ -22,9 +27,33 @@ canvas { display: block; }
     min-width: 800px;
 }
 
-.header { 
-    top: 0; 
+
+.header {
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.header a {
+    color: #ccc;
+}
+
+.header h1,
+.header h1 a { 
+    color: #222;
+    text-shadow: 0px 0px 2px #999;
+    font-weight: normal; 
+    font-size: 10vw; 
+    margin: .25em 0 0 .5em;
+}
+
+.header nav {
+    float: right;
+    margin-right: 1em;
+}
+
+
 .footer { 
     bottom: 0; 
     text-align: center; 
@@ -32,13 +61,7 @@ canvas { display: block; }
     padding: 0 0 .5em 0;
 }
 
-.header h1 { 
-    color: #222;
-    text-shadow: 0px 0px 2px #999;
-    font-weight: normal; 
-    font-size: 10vw; 
-    margin: .25em 0 0 .5em;
-}
+
 
 #nodeNumber {
     position: fixed;
