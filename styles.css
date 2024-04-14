@@ -127,6 +127,9 @@ a {
     border: 1px solid green;
 }
 
+.control input{
+    width: 96%;
+}
 .control label{
     display: block;
     color: #666;
