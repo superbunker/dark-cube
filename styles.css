@@ -40,7 +40,7 @@ a {
     font-size: 8vw; 
     margin: .1em 0 .1em .2em;
     max-width: 40vw;
-    /* max-width: 4.1em; */
+    min-width: 9.2em;
 }
 .header h1,
 .header h1 a { 
@@ -123,6 +123,7 @@ a {
     display: inline-block;
     margin: 1vw;
     width: 28vw;
+    border: 1px solid red;
 }
 
 .control label{
