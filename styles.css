@@ -1,6 +1,6 @@
 body { 
     margin: 0; 
-    background: #222; 
+    background: #000; 
     color: #ddd;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -87,7 +87,25 @@ a {
     padding: 0 0 .5em 0;
 }
 
+#content{
+    background: #222;
+    color: #ddd;
+    margin: 12% 5%;
+    padding: 0 1em;
+    border: 1px solid #666;
+    border-radius: 5px;
+    line-height: 1.5rem;
 
+}
+
+#content h2{
+    font-weight: normal;
+    font-size: 1.8em;
+}
+
+#content p{
+    line-height: 1.5rem;
+}
 
 #nodeNumber {
     position: fixed;
