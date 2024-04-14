@@ -18,8 +18,12 @@ document.addEventListener("DOMContentLoaded", function() {
     const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
     camera.position.z = 10;
     const renderer = new THREE.WebGLRenderer();
+
+    const container = document.getElementById('container');
+
     renderer.setSize(window.innerWidth, window.innerHeight);
-    document.body.appendChild(renderer.domElement);
+    // document.body.appendChild(renderer.domElement);
+    container.appendChild(renderer.domElement);
 
     const cubeGroup = new THREE.Group();
     scene.add(cubeGroup);
@@ -31,10 +35,10 @@ document.addEventListener("DOMContentLoaded", function() {
         for (let y = 0; y < cubeSize; y++) {
             for (let z = 0; z < cubeSize; z++) {
 
-                // CMY because it starts white and subtracts color toward the maximum
+                // CMY - starts white and subtracts color toward the maximum
                 // const color = new THREE.Color(`rgb(${255 - x * 51}, ${255 - z * 51}, ${255 - y * 51})`);
 
-                // RGB becasue it starts black and adds color towards the maximum
+                // RGB - starts black and adds color towards the maximum
                 const color = new THREE.Color(`rgb(${z * 51}, ${y * 51}, ${x * 51})`);
 
                 const nodeMaterial = new THREE.MeshBasicMaterial({ color: color, transparent: true, opacity: nodeOpacity });
@@ -118,11 +122,31 @@ document.addEventListener("DOMContentLoaded", function() {
     }
     animate();
 
+
+    // window.addEventListener('resize', () => {
+    //     camera.aspect = window.innerWidth / window.innerHeight;
+    //     camera.updateProjectionMatrix();
+    //     renderer.setSize(window.innerWidth, window.innerHeight);
+    // });
+
+// attempted mobile resize
     window.addEventListener('resize', () => {
+        const isMobile = window.innerWidth <= 768; // Check if the screen width is below a certain breakpoint
+      
+        if (isMobile) {
+          // Calculate the height for the canvas, leaving room for controls at the bottom
+          const canvasHeight = window.innerHeight * 0.8; 
+          const canvasWidth = window.innerHeight * 0.9; 
+
+          renderer.setSize(canvasWidth, canvasHeight);
+        } else {
+          // Reset the canvas size for larger screens
+          renderer.setSize(window.innerWidth, window.innerHeight);
+        }
+      
         camera.aspect = window.innerWidth / window.innerHeight;
         camera.updateProjectionMatrix();
-        renderer.setSize(window.innerWidth, window.innerHeight);
-    });
+      });
 
     // Pause rotation when the page is hidden
     document.addEventListener('visibilitychange', toggleRotation);
