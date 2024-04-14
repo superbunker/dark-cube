@@ -26,7 +26,6 @@ a {
     width: 100%;
     box-sizing: border-box;
     z-index: 1000;
-    min-width: 800px;
 }
 
 
@@ -45,8 +44,9 @@ a {
 	-webkit-text-stroke: 2px #666;
 
     font-weight: normal; 
-    font-size: 10vw; 
+    font-size: 8vw; 
     margin: .1em 0 .1em .1em;
+    max-width: 40vw;
 }
 
 .header h1 a:hover { 
@@ -64,7 +64,7 @@ a {
     display: inline-block;
     color: #666;
     text-decoration: none;
-    font-size: 4rem; 
+    font-size: 6vw; 
     font-weight: bold;
     line-height: 1; 
     padding: 0;
