@@ -24,21 +24,11 @@
         <p>This is some demo text to demonstrate the effect of displaying additional information when a node is selected.</p>
     </div> <!-- Text overlay container -->
 
+    <div id="nodeNumber" class="">
+        <span id="nodeNumberValue">000</span>
+    </div>
 
     <div class="footer">
-
-        <div id="nodeNumber" class="control">
-            <span id="nodeNumberValue">000</span>
-        </div>
-
-        <datalist id="markers">
-            <option value="0"></option>
-            <option value="1"></option>
-            <option value="2"></option>
-            <option value="3"></option>
-            <option value="4"></option>
-            <option value="5"></option>
-        </datalist>
 
         <div class="control">
             <input type="range" id="x" min="0" max="5" value="0" step="1" list="markers">
@@ -52,6 +42,15 @@
             <input type="range" id="z" min="0" max="5" value="0" step="1" list="markers">
             <label for="z">Psychopath</label>
         </div>
+
+        <datalist id="markers">
+            <option value="0"></option>
+            <option value="1"></option>
+            <option value="2"></option>
+            <option value="3"></option>
+            <option value="4"></option>
+            <option value="5"></option>
+        </datalist>
 
     </div>
 
