@@ -82,7 +82,7 @@ a {
     bottom: 0; 
     text-align: center; 
     margin: 0;
-    padding: 0 0 .5em 0;
+    padding: 1vh 1vw;
 }
 
 #content{
@@ -110,11 +110,10 @@ a {
     position: fixed;
     bottom: 25%;
     right: 3%;
-    opacity: 0.4;
-    color: #666;
+    opacity: 0.3;
+    color: #ccc;
     font-weight: bold;
-    /* font-size: 96px; */
-    font-size: 12vw; 
+    font-size: 14vw; 
     line-height: .8em;
     margin: 0px;
     letter-spacing: .2em;
@@ -122,13 +121,13 @@ a {
 
 .control {
     display: inline-block;
-    margin: .5em;
+    margin: 1vw;
     width: 28vw;
 }
 
 .control label{
     display: block;
-    color: #444;
+    color: #666;
     font-size: 4vw ; 
 }
 
