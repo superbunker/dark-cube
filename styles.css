@@ -6,7 +6,6 @@ body {
 }
 
 #container{
-    /* maybe not useful? */
     margin: 0;
     padding: 0;
 }
@@ -21,7 +20,8 @@ a {
 
 .header, .footer {
     background-color: #000;
-
+    min-width: 640px;
+    padding-right: 40px;
     position: fixed;
     width: 100%;
     box-sizing: border-box;
@@ -147,8 +147,8 @@ a {
     border-radius: 5px;
     color: white;
     display: none; /* Initially hidden */
-    max-height: 50vh; /* Set a maximum height for the popover */
-    overflow: scroll; 
+    max-height: 40vh; /* Set a maximum height for the popover */
+    overflow-y: scroll; 
 }
 
 #text-overlay h2{
