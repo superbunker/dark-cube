@@ -134,22 +134,29 @@ a {
     display: block;
     color: #666;
     font-size: 4vw ; 
+    margin-top: 0px;
 }
+
 
 /* Styling for text overlay */
 #text-overlay {
     position: fixed;
     top: 0%;
-    left: 30%;
-    transform: translate(-20%, 0%);
-    margin-top: 20vh;
+    left: 5%;
+    right: 5%;
+    /* transform: translate(-10%, 0%); */
+
+    /* margin-top: 20vh; */
+    margin-top: clamp(6vh, (calc(50px + 6vw)), 30vh);
+    /* margin-top: calc(90px - 2vh); */
+
     padding: 10px;
     background-color: #333;
-    opacity: 0.7;
+    opacity: 0.8;
     border-radius: 5px;
     color: white;
     display: none; /* Initially hidden */
-    max-height: 40vh; /* Set a maximum height for the popover */
+    max-height: 55vh; /* Set a maximum height for the popover */
     overflow-y: scroll; 
 }
 
@@ -161,7 +168,10 @@ a {
 }
 
 #text-overlay .shortdesc {
-    font-size: 3vw;
+    /* font-size: calc(32px - 1vw); */
+    /* font-size: clamp(1em, (calc(32px - 1vw)), 3rem) */
+    font-size: clamp(1em, 3em - 2vw, 2.5em);
+
     line-height: 1.5em;
     margin: 0;
 }
@@ -176,9 +186,84 @@ a {
 
     .control {
       display: block;
-      width: 90vw;
+      width: 90%;
       margin: 1vw auto; 
     }
 
+    #nodeNumber {
+        bottom: 35%;
+    }
 
   }
+
+
+/*** Control Style Experiements ***/
+
+
+/* <thumb selector> {
+    height: var(--s);
+    aspect-ratio: 1;
+    border-radius: 50%;
+    box-shadow: 0 0 0 var(--l) inset var(--c);
+    appearance: none;
+} */
+
+  input {
+    --c: orange; /* active color */
+    --g: 8px; /* the gap */
+    --l: 5px; /* line thickness*/
+    --s: 30px; /* thumb size*/
+    
+    /* width: 400px; */
+    height: var(--s); /* needed for Firefox*/
+    -webkit-appearance :none;
+    -moz-appearance :none;
+    appearance :none;
+    background: none;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  
+  /* chromium */
+  input[type="range" i]::-webkit-slider-thumb{
+    height: var(--s);
+    aspect-ratio: 1;
+    border-radius: 50%;
+    box-shadow: 0 0 0 var(--l) inset var(--c);
+    -webkit-appearance: none;
+    appearance: none;
+    border-image: linear-gradient(90deg,var(--c) 50%,#ababab2e 0) 1/0 100vw/0 calc(100vw + var(--g));
+
+  }
+  /* Firefox */
+  input[type="range"]::-moz-range-thumb {
+    height: var(--s);
+    width: var(--s);
+    background: none;
+    border-radius: 50%;
+    box-shadow: 0 0 0 var(--l) inset var(--c);
+    -moz-appearance: none;
+    appearance: none;
+    border-image: linear-gradient(90deg,var(--c) 50%,#ababab2e 0) 1/0 100vw/0 calc(100vw + var(--g));
+
+  }
+  
+  
+input#x{
+    --c: rgb(96, 148, 151); --l: 6px; --g:12px;
+}
+input#y{
+    --c: rgb(109, 145, 84); --l: 6px; --g:12px;
+}
+input#z{
+    --c: rgb(132, 84, 114); --l: 6px; --g:12px;
+}
+
+
+
+/* border-image-source: linear-gradient(90deg,var(--c) 50%,#ababab 0); 
+border-image-slice: 1;
+border-image-width: 0 100vw;
+border-image-outset: 0 calc(100vw + var(--g));
+ */
+
