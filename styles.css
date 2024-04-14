@@ -95,7 +95,8 @@ a {
     border: 1px solid #666;
     border-radius: 5px;
     line-height: 1.5rem;
-
+    max-height: 80vh;
+    overflow: scroll;
 }
 
 #content h2{
@@ -146,8 +147,8 @@ a {
     border-radius: 5px;
     color: white;
     display: none; /* Initially hidden */
-    max-height: 40vh; /* Set a maximum height for the popover */
-    overflow: auto; 
+    max-height: 50vh; /* Set a maximum height for the popover */
+    overflow: scroll; 
 }
 
 #text-overlay h2{
