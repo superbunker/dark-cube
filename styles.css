@@ -128,6 +128,8 @@ a {
     border-radius: 5px;
     color: white;
     display: none; /* Initially hidden */
+    max-height: 60vh; /* Set a maximum height for the popover */
+    overflow: auto; 
 }
 
 #text-overlay h2{
