@@ -123,8 +123,8 @@ a {
     display: inline-block;
     margin: 1vw;
     width: 28vw;
-    
-    border: 1px solid red;
+
+    border: 1px solid green;
 }
 
 .control label{
