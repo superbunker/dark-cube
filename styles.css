@@ -110,15 +110,15 @@ a {
 
 #nodeNumber {
     position: fixed;
-    bottom: 25%;
-    right: 3%;
+    top: 2%;
+    right: 25%;
     opacity: 0.3;
     color: #ccc;
     font-weight: bold;
-    font-size: 14vw; 
+    font-size: 10vw; 
     line-height: .8em;
     margin: 0px;
-    letter-spacing: .2em;
+    letter-spacing: .1em;
 }
 
 .control {
@@ -146,9 +146,7 @@ a {
     right: 5%;
     /* transform: translate(-10%, 0%); */
 
-    /* margin-top: 20vh; */
-    margin-top: clamp(6vh, (calc(50px + 6vw)), 30vh);
-    /* margin-top: calc(90px - 2vh); */
+    margin-top: clamp(6vh, (calc(50px + 6vw)), 60vh);
 
     padding: 10px;
     background-color: #333;
@@ -163,6 +161,7 @@ a {
 #text-overlay h2{
     font-weight: bold; 
     font-size: 2vw;
+    font-size: clamp(.8em, 2em - 2vw, 1.4em);
     color: #999;
     margin: 0 0 1em 0;
 }
@@ -170,9 +169,9 @@ a {
 #text-overlay .shortdesc {
     /* font-size: calc(32px - 1vw); */
     /* font-size: clamp(1em, (calc(32px - 1vw)), 3rem) */
-    font-size: clamp(1em, 3em - 2vw, 2.5em);
+    font-size: clamp(1.2em, 2.5em - 2vw, 1.4em);
 
-    line-height: 1.5em;
+    line-height: 1.4em;
     margin: 0;
 }
 
@@ -182,37 +181,16 @@ a {
 
 
 
-@media (max-width: 768px) {
-
-    .control {
-      display: block;
-      width: 90%;
-      margin: 1vw auto; 
-    }
-
-    #nodeNumber {
-        bottom: 35%;
-    }
-
-  }
 
 
 /*** Control Style Experiements ***/
 
-
-/* <thumb selector> {
-    height: var(--s);
-    aspect-ratio: 1;
-    border-radius: 50%;
-    box-shadow: 0 0 0 var(--l) inset var(--c);
-    appearance: none;
-} */
-
   input {
     --c: orange; /* active color */
+    --ct: rgba(255, 0, 0, 0.428); /*transparent version of color
     --g: 8px; /* the gap */
-    --l: 5px; /* line thickness*/
-    --s: 30px; /* thumb size*/
+    --l: 10px; /* line thickness*/
+    --s: 20px; /* thumb size*/
     
     /* width: 400px; */
     height: var(--s); /* needed for Firefox*/
@@ -232,7 +210,7 @@ a {
     box-shadow: 0 0 0 var(--l) inset var(--c);
     -webkit-appearance: none;
     appearance: none;
-    border-image: linear-gradient(90deg,var(--c) 50%,#ababab2e 0) 1/0 100vw/0 calc(100vw + var(--g));
+    border-image: linear-gradient(90deg,var(--ct) 50%,#ababab2e 0) 1/0 100vw/0 calc(100vw + var(--g));
 
   }
   /* Firefox */
@@ -244,26 +222,46 @@ a {
     box-shadow: 0 0 0 var(--l) inset var(--c);
     -moz-appearance: none;
     appearance: none;
-    border-image: linear-gradient(90deg,var(--c) 50%,#ababab2e 0) 1/0 100vw/0 calc(100vw + var(--g));
+    border-image: linear-gradient(90deg,var(--ct) 50%,#ababab22 0) 1/0 100vw/0 calc(100vw + var(--g));
 
   }
   
   
 input#x{
-    --c: rgb(96, 148, 151); --l: 6px; --g:12px;
+    --c: rgba(3, 185, 195); --l: 6px; --g:12px;
+    --ct: rgba(3, 185, 195, 0.3);
 }
 input#y{
-    --c: rgb(109, 145, 84); --l: 6px; --g:12px;
+    --c: rgba(87, 204, 3); --l: 6px; --g:12px;
+    --ct: rgba(87, 204, 3, 0.3); 
 }
 input#z{
-    --c: rgb(132, 84, 114); --l: 6px; --g:12px;
+    --c: rgba(204, 2, 96); --l: 6px; --g:12px;
+    --ct: rgba(204, 2, 96, 0.3);
 }
 
 
 
-/* border-image-source: linear-gradient(90deg,var(--c) 50%,#ababab 0); 
-border-image-slice: 1;
-border-image-width: 0 100vw;
-border-image-outset: 0 calc(100vw + var(--g));
- */
+@media (max-width: 768px) {
+
+    .control {
+      display: block;
+      width: 90%;
+      margin: 1vw auto; 
+    }
+
+    .control label {
+        /* display: none !important; */
+        z-index: -1;
+        margin-bottom: -26px;
+        margin-left: 36px;
+        text-align: left;
+    }
+    .control input{
+        z-index: 9000;
+    }
+ 
+
+  }
+
 
