@@ -160,8 +160,8 @@ a {
 
 #text-overlay h2{
     font-weight: bold; 
-    font-size: 2vw;
-    font-size: clamp(.8em, 2em - 2vw, 1.4em);
+    /* font-size: .6em; */
+    font-size: clamp(.8em, .6em + .6vw, 1.8em);
     color: #999;
     margin: 0 0 1em 0;
 }
@@ -247,7 +247,7 @@ input#z{
     .control {
       display: block;
       width: 90%;
-      margin: 1vw auto; 
+      margin: 12px auto; 
     }
 
     .control label {
